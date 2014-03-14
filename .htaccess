@@ -1,0 +1,33 @@
+RewriteEngine on
+
+RewriteRule ^donate/$   donate.php
+RewriteRule ^donate$    donate.php
+
+RewriteRule ^about-us/$   who-we-are.php
+RewriteRule ^about-us$    who-we-are.php
+
+RewriteRule ^about-us/who-we-are/$   about-who-we-are.php
+RewriteRule ^about-us/who-we-are$    about-who-we-are.php
+
+RewriteRule ^programs/revive-our-hearts/immanuel/$   program-roh.php
+RewriteRule ^programs/revive-our-hearts/immanuel$    program-roh.php
+
+RewriteRule ^programs/seeking-him/$   program-sh.php
+RewriteRule ^programs/seeking-him$    program-sh.php
+
+RewriteRule ^blogs/true-woman/$   blog-truewoman.php
+RewriteRule ^blogs/true-woman$    blog-truewoman.php
+
+RewriteRule ^blogs/lies-young-women-believe/$   blog-lywb.php
+RewriteRule ^blogs/lies-young-women-believe$    blog-lywb.php
+
+RewriteRule ^store/sample-product/$   store-sample-product.php
+RewriteRule ^store/sample-product$    store-sample-product.php
+
+RewriteRule ^contact/$   contact.php
+RewriteRule ^contact$    contact.php
+
+
+
+RewriteRule ^[A-Za-z0-9-]/$	[A-Za-z0-9-].php
+RewriteRule ^[A-Za-z0-9-]$	[A-Za-z0-9-].php
