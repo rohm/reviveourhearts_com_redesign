@@ -40,11 +40,11 @@ $bodyCss = "donate page page-simple";
 				</div>
 				<!-- Credit Card  -->
 				<div class="form-group">
-					<label for="">Credit Card</label>
+					<label for=""><i class="fa fa-credit-card"></i> Credit Card</label>
 					<div class="row">
 						<div class="col-xs-12 col-sm-4">
 							<input type="text" class="form-control" id="cc_number" placeholder="xxx xxx xxx xxx xxx">
-							<small class="help-text sr-only">CC Number</small>
+							<small class="help-text sr-only"> CC Number</small>
 						</div>
 						<div class="col-xs-6 col-sm-2">
 							<?php

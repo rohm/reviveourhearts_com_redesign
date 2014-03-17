@@ -8,7 +8,7 @@
 @import "theme-components.less";
 
 @grid-columns:              12;
-@grid-gutter-width:         36px;
+@grid-gutter-width:         5%;
 @grid-float-breakpoint:     768px;
 
 @media (max-width : @screen-sm-min) {
@@ -56,6 +56,26 @@ a {
   z-index: 3;
 }
 
+.navbar-collapse {
+	.form-control {
+		margin-top: @grid-gutter-width;
+	}
+}
+
+@media (max-width : @screen-sm-min) {
+	.nav {
+		.caret {
+			float: right;
+			margin-top: 7px;
+		}
+		i.fa {
+			float: left;
+			margin-right: 10px;
+			margin-top: 3px;
+		}
+	}
+}
+
 body.store #parent-store,
 body.blog #parent-blogs,
 body.about #parent-about,
@@ -68,21 +88,34 @@ body.donate #parent-donate {
 	}
 }
 
+@mega-menu-text-color: #ccc;
 
-.item-search {
-  &:hover {
-    background-color: @well-bg;
-  }
-  a {
-    background-color: @well-bg;
-    .transition(none);
-    &.collapsed {
-      background-color: transparent;
-    }
-    &:hover {
-      background-color: @well-bg;
-    }
-  }
+.navbar-header {
+	#parent-cart,
+	#parent-account,
+	#search-menu {
+	  &:hover {
+	    background-color: @mega-bg;
+	  }
+	  a {
+	    background-color:  @mega-bg;
+		
+	    .transition(none);
+	    &.collapsed {
+	      background-color: transparent;
+	    }
+	    &:hover {
+	      background-color:  @mega-bg;
+				color: @mega-menu-text-color;
+	    }
+	  }
+	}
+}
+
+#parent-cart,
+#parent-account {
+	position: relative;
+	top: 1px;
 }
 
 #search-menu {
@@ -91,10 +124,15 @@ body.donate #parent-donate {
   bottom: 0;
 }
 
-#search-box {
+.mega-menu {
+	background-color:  @mega-bg;
+	color: #fff;
+}
+
+#search-mega {
 
   /* z-index: 2; */
-  background-color: @well-bg;
+  background-color: @mega-bg;
   position: relative;
 	.box-shadow(0 4px 0 rgba(0,0,0,.10));
 	.navbar-form {
@@ -244,21 +282,18 @@ body.donate #parent-donate {
 .blog-entries {
 	.make-row();
 	
-	h2 {
-		padding-left: 15px;
-	}
 	.media-list {
-		.make-lg-column(9);
+		.make-sm-column(12);
+		.make-md-column(9);
 	}
-	
-	aside.main {
-		.make-lg-column(3);
+	aside {
+		.make-md-column(3);
 	}
-	
 }
+
 .media-list {
   .pull-left {
-    margin-right: 20px;
+    margin-right: @grid-gutter-width;
   }
 }
 
@@ -278,7 +313,7 @@ body.donate #parent-donate {
     width: 100%;
     .box-sizing(border-box);
     z-index: 1;
-    border-bottom: 1px solid @gray-light;
+    border-bottom: 1px solid lighten(@gray-light, 28%);
 		
 		
     button {
@@ -340,6 +375,14 @@ footer#global-footer {
 		
 		section {
 			.make-md-column(4);
+			&.featured-book {
+				.pull-left {
+					margin-right: @grid-gutter-width;
+				}
+				h4 {
+					margin-top: 0;
+				}
+			}
 			&.fun-stuff,
 			&.contact-info {
 				.make-sm-column(6);
@@ -351,7 +394,7 @@ footer#global-footer {
 	.thumbnails {
 		.make-row();
 		> a {
-			.make-sm-column(4);
+			.make-xs-column(4);
 		}
 	}
 
@@ -365,7 +408,7 @@ footer#global-footer {
 			}
 			button {
 				position: absolute;
-				right: 15px;
+				right: (@grid-gutter-width / 5);
 				bottom: 0;
 			}
 		}
@@ -395,8 +438,26 @@ footer#global-footer {
 	.social-nav {
 		.make-md-column(6);
 		.make-lg-column(5);
+		text-align: right;
+		.badge {
+			background-color: rgba(0,0,0,.2);
+			width: 34px;
+			height: 34px;
+			border-radius: 34px;
+			line-height: 26px;
+			vertical-align: middle;
+			i {
+				font-size: 18px;
+				vertical-align: middle; 
+			}
+			&:hover {
+				background-color: @link-color;
+			}
+		}
 	}
 }
+
+
 
 #footer-legal {
 	padding: 20px 0 20px;
@@ -408,63 +469,52 @@ footer#global-footer {
 	nav {
 		.make-md-column(6);
 		.make-lg-column(7);
+		
+		a {
+			margin-right: 2%;
+		}
 	}
 	.copyright {
 		.make-md-column(6);
 		.make-lg-column(5);
-		small {
-			width: 100%;
-		}
+		text-align: right;
 	}
 }
 
+@media (max-width: @screen-sm-min) {
+	#footer-main {
+		.contact-info {
+			text-align: center;
+		}
+	}
+	#footer-social {
+		padding-top: @grid-gutter-width;
+		text-align: center;
+		.social-nav {
+			text-align: center;
+			margin-top: (@grid-gutter-width / 1.7);
+			margin-bottom: (@grid-gutter-width / 1.7);
+		}
+	}
+	#footer-legal {
+		text-align: center;
+		.copyright {
+			text-align: center;
+			margin-top: (@grid-gutter-width / 1.7);
+			margin-bottom: (@grid-gutter-width / 3);
+		}
+	}
+}
 
 //
 // Home
 // --------------------------------------------------
 
-.home {
-	article.entry {
-		padding-top: 0;
-		header {
-			h1 {
-				.font-size(2.8);
-			}
-		}
-	}
-}
-
-.blog-entries {
-	.make-row();
-	
-	.media-list {
-		.make-sm-column(12);
-		.make-md-column(9);
-		.make-lg-column(9);
-	}
-	
-}
 
 #todays-program {
 	border-radius: 0 0 @radius-default @radius-default;
 }
 
-#home-blogs {
-	aside {
-		.make-row();
-		.make-sm-column(12);
-		.make-md-column(3);
-		.make-lg-column(3);
-		
-	}
-}
-
-#promo-key-resources {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	.make-row();
-	.make-xs-column(12);
-}
 
 //
 // Programs > ROH
@@ -488,7 +538,7 @@ footer#global-footer {
 }
 
 //
-// Programs > ROH
+// Programs > Seeking Him
 // -------------------------------------------------
 
 .sh {
@@ -551,6 +601,11 @@ footer#global-footer {
   }
 }
 
+//
+// Store
+// -------------------------------------------------
+
+
 
 //
 // Custom helpers
@@ -573,7 +628,7 @@ footer#global-footer {
 	
 }
 
-@media screen-only and 
+@media  
 	(min-width : @screen-sm-min) and 
 	(max-width : @screen-lg-min) {
 	body {
@@ -633,4 +688,57 @@ footer#global-footer {
   	 right: 20px;
 	}
 
+}
+
+/*
+ * Off Canvas navbar toggle right
+ * --------------------------------------------------
+ */
+
+@media (max-width: @screen-sm-min) {
+	.row-offcanvas {
+		clear: both;
+	}
+  .row-offcanvas .collapsing {
+	-webkit-transition: none 0;
+    -moz-transition: none 0;
+    transition: none 0;
+  }
+ .row-offcanvas .navbar {
+	position: absolute;
+	z-index: 2;
+    right:0;
+    height:100%;
+    width:55px;
+    border:0;
+
+  }
+  .row-offcanvas .navbar-toggle {
+    margin-right: 5px;
+  	margin-left: 5px;
+		right: 20%;
+  }
+  .row-offcanvas {
+    position: relative;
+  }
+  .row-offcanvas-right.active .navbar {
+	position: absolute;
+	z-index: 2;
+    right: -28.4%;
+    width:40%;
+
+    // background-color:#eee;
+    // border:0 solid #ddd;
+    border-left-width:1px;
+  }
+  .row-offcanvas-right.active {
+    left: 20%;
+  }  
+  .row-offcanvas-right.active .navbar-collapse {
+    position: relative;
+    width: 80%;
+  }  
+  .row-offcanvas .content {
+	width:calc(100% - 60px);
+  }
 }

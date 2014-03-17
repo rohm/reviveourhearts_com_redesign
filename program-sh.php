@@ -11,21 +11,11 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 <div class="top-social-buttons visible-xs">
 	<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button><button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button><button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button><button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
 </div>
-<div class="jumbotron jumbotron-has-navbar-inner">
+<div class="jumbotron">
 	<div class="container">
 		<h1><?php echo $programName; ?></h1>
 	</div>
 </div>
-<nav class="navbar navbar-custom navbar-inner" role="navigation">
-	<div class="container">
-		<ul class="nav navbar-nav">
-			<li><a href="#">About</a></li>
-			<li><a href="#">Authors</a></li>
-			<li><a href="#">Events</a></li>
-			
-		</ul>
-	</div>
-</nav>
 
 <div class="container">
 	<ol class="breadcrumb">

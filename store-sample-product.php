@@ -33,7 +33,7 @@ $bodyCss = "store books page page-full-width page-product-detail page-product-bo
 				<span class="author"><a href="#">Nancy Leigh DeMoss</a></span>
 				about 
 				<span class=""><a href="">The Son</a></span> 
-				<a class="pull-right" href="#comments">4 Comments <i class="glyphicon glyphicon-comment"></i></a>
+				<a class="pull-right" href="#comments">4 Comments <i class="fa fa-comments"></i></a>
 			</p>
 		</header>
 

@@ -107,9 +107,9 @@ $('#home-carousel').carousel({
 
 
 <div id="home-blogs" class="container">
-
+	<h2>Blogs</h2>
 	<section class="blog-entries">
-		<h2>Blogs</h2>
+		
 		<ul class="media-list">
 			<li class="media">
 				<article>
@@ -156,30 +156,31 @@ $('#home-carousel').carousel({
 				</article>
 			</li>
 		</ul>
+		<aside>
+			<h3>Other Programs</h3>
 
+			<div class="well">
+				<h3><a href="/seeking-him/">Seeking Him</a></h3>
+			</div>
+
+			<div class="well">
+				<h3><a href="https://www.avivanuestroscorazones.com">Aviva Nuestros Corazones</a></h3>
+			</div>
+
+			<div class="well">
+				<a href="#">Women&rsquo;s Ministry Leaders &rarr;</a>
+			</div>
+		</aside>
+		
 	</section>
-
-	<aside>
-		<h3>Other Programs</h3>
-
-		<div class="well">
-			<h3><a href="/seeking-him/">Seeking Him</a></h3>
-		</div>
-
-		<div class="well">
-			<h3><a href="https://www.avivanuestroscorazones.com">Aviva Nuestros Corazones</a></h3>
-		</div>
-
-		<div class="well">
-			<a href="#">Women&rsquo;s Ministry Leaders &rarr;</a>
-		</div>
-	</aside>
 
 	<div id="promo-key-resources">
 		<div class="well">
 			<h3><a href="#">Promote Key Resources</a></h3>
 		</div>
 	</div>
+
+	
 </div>
 
 <?php include "_footer.php"; ?>

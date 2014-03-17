@@ -70,13 +70,14 @@
 				
 				<div id="footer-social">
 
-					<p class="credits pull-left-sm"><a href="/"><?php echo $siteName ?></a> is a ministry of <a href="http://www.lifeaction.org">Life Action Ministries</a>.</p>
+					<p class="credits pull-left-sm"><a href="/"><em><?php echo $siteName ?></em></a> is a ministry of <a href="http://www.lifeaction.org">Life&nbsp;Action&nbsp;Ministries</a>.</p>
 				
 					<nav class="social-nav pull-right-sm">
-						<a href="#" class="google-plus">Google Plus</a>
-						<a href="#" class="vimeo">Vimeo</a>
-						<a href="#" class="facebook">Facebook</a>
-						<a href="http://twitter.com/reviveourhearts" class="twitter">Twitter</a>
+						<a href="#" class="rss badge"><i class="fa fa-rss"></i></a>
+						<a href="#" class="google-plus badge"><i class="fa fa-google-plus"></i></a>
+						<a href="#" class="vimeo badge"><i class="fa fa-vimeo-square"></i></a>
+						<a href="#" class="facebook badge"><i class="fa fa-facebook"></i></a>
+						<a href="http://twitter.com/reviveourhearts" class="twitter badge"><i class="fa fa-twitter"></i></a>
 					</nav>
 					
 				</div>
@@ -84,19 +85,19 @@
 				<div id="footer-legal">
 
 					<nav>
-							<small>
+
 								<a href="/about-us">About Us</a>
 								<a href="/privacy">Privacy</a>
 								<a href="/permissions">Permissions</a>
 								<a href="/faqs">FAQs</a>
 								<a href="/site-map">Site Map</a>
 								<a href="/contact/">Contact Us</a>
-							</small>
-					</nav>
 
-					<p class="copyright">
-						<small class="copyright">Copyright &copy; <?php echo $siteName ?> 2001-<?php echo date("Y") ?> </small>
-					</p>
+					</nav>
+					
+					<div class="copyright">
+						<p>Copyright &copy; <em><?php echo $siteName ?></em> 2001-<?php echo date("Y") ?></p>
+					</div>
 
 				</div>
 			</div>
@@ -113,5 +114,10 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="/js/html5slider.js"></script>
     <script src="/js/bootstrap-player.js"></script>
+		<script>
+			$('[data-toggle=collapse]').click(function() {
+			  $('.row-offcanvas').toggleClass('active');
+			});
+		</script>
   </body>
 </html>
