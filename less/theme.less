@@ -92,12 +92,12 @@ body.donate #parent-donate {
 
 @mega-menu-text-color: #ccc;
 
-.navbar-header {
+.navbar {
 	#parent-cart,
 	#parent-account,
 	#search-menu {
 	  &:hover {
-	    background-color: @mega-bg;
+	    background-color: @well-bg;
 	  }
 	  a {
 	    background-color:  @mega-bg;
@@ -112,6 +112,29 @@ body.donate #parent-donate {
 	    }
 	  }
 	}
+}
+
+.navbar {
+	#parent-cart,
+	#parent-account,
+	#search-menu {
+	  a {
+	    &.collapsed:hover {
+	      background-color:  @well-bg;
+				color: @mega-menu-text-color;
+	    }
+	  }
+		@media (min-width : @screen-sm-min ) and (max-width : @screen-lg-min) {
+			a {
+				border-radius: 2px;
+			}
+		}
+		
+	}
+}
+
+.mega-menu.in {
+	padding-bottom: 30px;
 }
 
 #parent-cart,
@@ -712,7 +735,7 @@ footer#global-footer {
 	}
 
   #member-menu {
-    padding-right: 45px;
+    padding-right: 55px;
   }
 	#search-menu {
   	 position: absolute;

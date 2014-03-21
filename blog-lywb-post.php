@@ -11,23 +11,7 @@ $bodyCss = "blog lywb page page-default page-secondary-nav has-top-social-button
 	<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button><button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button><button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button><button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
 </div>
 
-<div id="section-nav" class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      
-      <a class="navbar-brand" href="/blogs/lies-young-women-believe/"><em><?php echo $pageTitle ?></em></a>
-    </div>
-    <div class="hidden-xs pull-right">
-      <ul class="nav navbar-nav navbar-left">
-        <li id=""><a href="">About</a></li>
-        <li id=""><a href="">Authors</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-
-</div>
-
-
+<?php include "_lywb_navbar.php" ?>
 
 <div class="container">
 	<!-- <ol class="breadcrumb">

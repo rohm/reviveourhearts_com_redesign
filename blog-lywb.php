@@ -2,33 +2,20 @@
 
 $sectionName ="Blogs";
 $pageTitle = "Lies Young Women Believe";
-$bodyCss = "blog lywb page page-simple";
+$bodyCss = "blog lywb page page-simple page-secondary-nav ";
 
 ?>
 
 <?php include "_header.php"; ?>
-<div class="jumbotron jumbotron-has-navbar-inner">
-	<div class="container">
-		<h1><?php echo $pageTitle; ?></h1>
-	</div>
-</div>
-<nav class="navbar navbar-custom navbar-inner" role="navigation">
-	<div class="container">
-		<ul class="nav navbar-nav">
-			<li><a href="#">About</a></li>
-			<li><a href="#">Authors</a></li>
-			<li><a href="#">Events</a></li>
-			
-		</ul>
-	</div>
-</nav>
+
+<?php include "_lywb_navbar.php" ?>
 
 <div class="container">
-	<ol class="breadcrumb">
+	<!-- <ol class="breadcrumb">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about-us/"><?php echo $sectionName; ?></a></li>
 		<li class="active"><?php echo $pageTitle; ?></li>
-	</ol>
+	</ol> -->
 	
 		<section class="main blog-entries">
 			<ul class="media-list">
