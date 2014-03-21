@@ -18,8 +18,14 @@ RewriteRule ^programs/seeking-him$    program-sh.php
 RewriteRule ^blogs/true-woman/$   blog-truewoman.php
 RewriteRule ^blogs/true-woman$    blog-truewoman.php
 
+RewriteRule ^blogs/true-woman/post/$   blog-truewoman-post.php
+RewriteRule ^blogs/true-woman/post$    blog-truewoman-post.php
+
 RewriteRule ^blogs/lies-young-women-believe/$   blog-lywb.php
 RewriteRule ^blogs/lies-young-women-believe$    blog-lywb.php
+
+RewriteRule ^blogs/lies-young-women-believe/post/$   blog-lywb-post.php
+RewriteRule ^blogs/lies-young-women-believe/post$    blog-lywb-post.php
 
 RewriteRule ^store/sample-product/$   store-sample-product.php
 RewriteRule ^store/sample-product$    store-sample-product.php

@@ -37,12 +37,7 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 		</header>
 
 		
-		<div class="social-buttons hidden-xs">
-			<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button>
-			<button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button>
-			<button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button>
-			<button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
-		</div>
+		<?php include "_social_buttons_1.php" ?>
 	
 		<section class="main" role="main">
 			<div class="entry-content">

@@ -40,7 +40,7 @@ $bodyCss = "blog lywb page page-simple";
 						<div class="media-body">
 							<header>
 								<h3 class="media-heading">
-									<a href="#">The Man of Sorrows Reduced Me to Tears</a>
+									<a href="/blogs/lies-young-women-believe/post/">The Man of Sorrows Reduced Me to Tears</a>
 								</h3>
 								<p class="media-details">
 									by <a href="#" class="entry-author">Dawn Wilson</a> &dot; <a href="#" class="entry-comments">14 Comments</a>
@@ -60,7 +60,7 @@ $bodyCss = "blog lywb page page-simple";
 						<div class="media-body">
 							<header>
 								<h3 class="media-heading">
-									<a href="#">Articles, Resources, and More . . . Oh My! (03/07/14)</a>
+									<a href="/blogs/lies-young-women-believe/post/">Articles, Resources, and More . . . Oh My! (03/07/14)</a>
 								</h3>
 								<p class="media-details">
 									by <a href="#" class="entry-author">Lindsay Swartz</a> &dot; <a href="#" class="entry-comments">14 Comments</a>
@@ -84,7 +84,7 @@ $bodyCss = "blog lywb page page-simple";
 						<div class="media-body">
 							<header>
 								<h3 class="media-heading">
-									<a href="#">The Man of Sorrows Reduced Me to Tears</a>
+									<a href="/blogs/lies-young-women-believe/post/">The Man of Sorrows Reduced Me to Tears</a>
 								</h3>
 								<p class="media-details">
 									by <a href="#" class="entry-author">Dawn Wilson</a> &dot; <a href="#" class="entry-comments">14 Comments</a>
@@ -104,7 +104,7 @@ $bodyCss = "blog lywb page page-simple";
 						<div class="media-body">
 							<header>
 								<h3 class="media-heading">
-									<a href="#">Articles, Resources, and More . . . Oh My! (03/07/14)</a>
+									<a href="/blogs/lies-young-women-believe/post/">Articles, Resources, and More . . . Oh My! (03/07/14)</a>
 								</h3>
 								<p class="media-details">
 									by <a href="#" class="entry-author">Lindsay Swartz</a> &dot; <a href="#" class="entry-comments">14 Comments</a>

@@ -136,13 +136,11 @@ $bodyCss = "donate page page-simple";
 					</select>
 				</div>
 				<div class="form-group">
-
 					<div class="checkbox">
-						<label class="checkbox-inline">
-							<input type="checkbox"> Sign up for email list <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
-						</label>
-					</div>
 
+						<input type="checkbox" id="" name="" value="" />
+						<label> Sign up for email list <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a></label>
+					</div>
 				</div>
 				<div class="form-group">
 					<button type="submit" class="btn btn-primary btn-lg">Submit Donation</button>
