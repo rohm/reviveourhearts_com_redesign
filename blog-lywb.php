@@ -8,7 +8,7 @@ $bodyCss = "blog lywb page page-simple page-secondary-nav ";
 
 <?php include "_header.php"; ?>
 
-<?php include "_lywb_navbar.php" ?>
+<?php include "_navbar_lywb.php" ?>
 
 <div class="container">
 	<!-- <ol class="breadcrumb">

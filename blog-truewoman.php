@@ -2,27 +2,13 @@
 
 $sectionName ="Blogs";
 $pageTitle = "True Woman";
-$bodyCss = "blog truewoman page page-simple";
+$bodyCss = "blog truewoman page page-simple page-secondary-nav";
 
 ?>
 
 <?php include "_header.php"; ?>
-<div class="jumbotron jumbotron-has-navbar-inner">
-	<div class="container">
-		<h1><?php echo $pageTitle; ?></h1>
-	</div>
-</div>
-<nav class="navbar navbar-custom navbar-inner" role="navigation">
-	<div class="container">
-		<ul class="nav navbar-nav">
-			<li><a href="#">About</a></li>
-			<li><a href="#">Authors</a></li>
-			<li><a href="#">Events</a></li>
-			<li><a href="#">Event Kit</a></li>
-			<li><a href="#">Sign Manifesto</a></li>
-		</ul>
-	</div>
-</nav>
+
+<?php include "_navbar_tw.php" ?>
 
 <div class="container">
 	<ol class="breadcrumb">
@@ -42,7 +28,7 @@ $bodyCss = "blog truewoman page page-simple";
 					<div class="media-body">
 						<header>
 							<h3 class="media-heading">
-								<a href="#">The Man of Sorrows Reduced Me to Tears</a>
+								<a href="/blogs/true-woman/post/">The Man of Sorrows Reduced Me to Tears</a>
 							</h3>
 							<p class="media-details">
 								by <a href="#" class="entry-author">Dawn Wilson</a> &dot; <a href="#" class="entry-comments">14 Comments</a>

@@ -590,60 +590,6 @@ footer#global-footer {
   }
 }
 
-
-//
-// True Woman
-// -------------------------------------------------
-
-.truewoman {
-  .jumbotron {
-    background-color: @tw-brand-primary;
-    color: #fff;
-  }
-  .navbar-inner {
-    background-color: darken(@tw-brand-primary, 10%);
-    a {
-      color: #fff;
-      text-shadow: none;
-      &:hover {
-        background-color: darken(@tw-brand-primary, 20%);
-      }
-    }
-  }
-}
-
-//
-// Lies Young Women Believe
-// -------------------------------------------------
-
-.lywb {
-  .jumbotron {
-    background-color: @lywb-brand-primary;
-    color: #fff;
-  }
-	
-  .navbar-inner {
-    background-color: darken(@lywb-brand-primary, 10%);
-    a {
-      color: #fff;
-      text-shadow: none;
-      &:hover {
-        background-color: darken(@lywb-brand-primary, 20%);
-      }
-    }
-  }
-}
-
-//
-// Store
-// -------------------------------------------------
-
-
-
-//
-// Custom helpers
-// --------------------------------------------------
-
 .page-secondary-nav {
 	#section-nav {
 		padding-top: 20px;
@@ -666,6 +612,91 @@ footer#global-footer {
     }
 	}
 }
+
+//
+// True Woman
+// -------------------------------------------------
+
+.truewoman {
+  .jumbotron {
+    background-color: @tw-brand-primary;
+    color: #fff;
+  }
+  .navbar-inner {
+    background-color: darken(@tw-brand-primary, 10%);
+    a {
+      &:hover {
+        background-color: darken(@tw-brand-primary, 20%);
+      }
+    }
+  }
+	&.page-secondary-nav {
+		#section-nav {
+			
+	    &.navbar {
+		    background: @tw-brand-primary;
+		    color: #fff;
+				.navbar-nav a {
+					background-color: darken(@tw-brand-primary, 5%);
+					margin-left: 4px;
+					&:hover {
+						background-color: darken(@tw-brand-primary, 15%);
+					}
+				}
+	    }
+		}
+	}
+}
+
+//
+// Lies Young Women Believe
+// -------------------------------------------------
+
+.lywb {
+  .jumbotron {
+    background-color: @lywb-brand-primary;
+    color: #fff;
+  }
+	
+  .navbar-inner {
+    background-color: darken(@lywb-brand-primary, 10%);
+    a {
+      color: #fff;
+      text-shadow: none;
+      &:hover {
+        background-color: darken(@lywb-brand-primary, 20%);
+      }
+    }
+  }
+	&.page-secondary-nav {
+		#section-nav {
+			
+	    &.navbar {
+		    background: @lywb-brand-primary;
+		    color: #fff;
+				.navbar-nav a {
+					background-color: darken(@lywb-brand-primary, 5%);
+					margin-left: 4px;
+					&:hover {
+						background-color: darken(@lywb-brand-primary, 15%);
+					}
+				}
+	    }
+		}
+	}
+}
+
+//
+// Store
+// -------------------------------------------------
+
+
+
+//
+// Custom helpers
+// --------------------------------------------------
+
+
 
 @media (max-width: @screen-lg-min) {
 

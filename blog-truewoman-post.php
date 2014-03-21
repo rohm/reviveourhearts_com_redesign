@@ -1,8 +1,8 @@
 <?php
 
 $sectionName ="Blogs";
-$pageTitle = "Lies Young Women Believe";
-$bodyCss = "blog lywb page page-default page-secondary-nav has-top-social-buttons";
+$pageTitle = "True Woman";
+$bodyCss = "blog truewoman page page-default page-secondary-nav has-top-social-buttons";
 
 ?>
 
@@ -11,7 +11,7 @@ $bodyCss = "blog lywb page page-default page-secondary-nav has-top-social-button
 	<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button><button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button><button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button><button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
 </div>
 
-<?php include "_navbar_lywb.php" ?>
+<?php include "_navbar_tw.php" ?>
 
 <div class="container">
 	<!-- <ol class="breadcrumb">
