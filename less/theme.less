@@ -50,7 +50,9 @@ a {
 // Header
 // --------------------------------------------------
 
-
+.navbar-wrap {
+	position: relative;
+}
 .navbar-brand {
   position: relative;
   z-index: 3;
@@ -305,6 +307,7 @@ body.donate #parent-donate {
 .top-social-buttons {
   button {
     width: 100%;
+		height: 40px;
     padding-left: 5px;
     padding-right: 5px;
     .font-size(1.2);
@@ -312,9 +315,10 @@ body.donate #parent-donate {
   }
   &.visible-xs {
     background: @gray-lighter;
-    padding: 1.2% 1% 1%;
+    padding: 5px 1% 1%;
     position: fixed;
     top: 50px;
+		height: 48px;
     width: 100%;
     .box-sizing(border-box);
     z-index: 1;
@@ -594,6 +598,7 @@ footer#global-footer {
     background-color: @lywb-brand-primary;
     color: #fff;
   }
+	
   .navbar-inner {
     background-color: darken(@lywb-brand-primary, 10%);
     a {
@@ -616,7 +621,28 @@ footer#global-footer {
 // Custom helpers
 // --------------------------------------------------
 
-
+.page-secondary-nav {
+	#section-nav {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.navbar-brand {
+			z-index: 0;
+		}
+    &.navbar {
+	    background: @lywb-brand-primary;
+			background-image: none;
+			filter: none;
+	    color: #fff;
+			.box-shadow(none);
+			border-radius: 0;
+			
+			a {
+				color: #fff;
+				text-shadow: none;
+			}
+    }
+	}
+}
 
 @media (max-width: @screen-lg-min) {
 
@@ -627,7 +653,7 @@ footer#global-footer {
 		padding-top: 50px;
 		// background: lightblue;
 		&.has-top-social-buttons {
-			padding-top: 90px;
+			padding-top: 96px;
 		}
 	}
 
@@ -695,58 +721,7 @@ footer#global-footer {
 
 }
 
-/*
- * Off Canvas navbar toggle right
- * --------------------------------------------------
- */
 
-@media (max-width: @screen-sm-min) {
-	.row-offcanvas {
-		clear: both;
-	}
-  .row-offcanvas .collapsing {
-	-webkit-transition: none 0;
-    -moz-transition: none 0;
-    transition: none 0;
-  }
- .row-offcanvas .navbar {
-	position: absolute;
-	z-index: 2;
-    right:0;
-    height:100%;
-    width:55px;
-    border:0;
-
-  }
-  .row-offcanvas .navbar-toggle {
-    margin-right: 5px;
-  	margin-left: 5px;
-		right: 20%;
-  }
-  .row-offcanvas {
-    position: relative;
-  }
-  .row-offcanvas-right.active .navbar {
-	position: absolute;
-	z-index: 2;
-    right: -28.4%;
-    width:40%;
-
-    // background-color:#eee;
-    // border:0 solid #ddd;
-    border-left-width:1px;
-  }
-  .row-offcanvas-right.active {
-    left: 20%;
-  }
-  .row-offcanvas-right.active .navbar-collapse {
-    position: relative;
-    width: 80%;
-  }
-  .row-offcanvas .content {
-	width:calc(100% - 60px);
-  }
-}
 
 .radio,
 .checkbox {
