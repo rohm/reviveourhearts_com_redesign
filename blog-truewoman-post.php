@@ -7,9 +7,8 @@ $bodyCss = "blog truewoman page page-default page-secondary-nav has-top-social-b
 ?>
 
 <?php include "_header.php"; ?>
-<div class="top-social-buttons visible-xs">
-	<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button><button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button><button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button><button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
-</div>
+
+<?php include "_social_buttons_2.php" ?>
 
 <?php include "_navbar_tw.php" ?>
 
@@ -38,14 +37,24 @@ $bodyCss = "blog truewoman page page-default page-secondary-nav has-top-social-b
 			<p>When Nancy asked me to help her research the names of Jesus for an upcoming series, I thought&mdash;to be honest&mdash;&ldquo;This will be interesting, but sort of ho-hum.&rdquo; After all, I&rsquo;d heard most of those names since I was a small child. What more was there to know?</p>
 			<p>So as I began my research, I thought about the words of Paul: &ldquo;that I may know him . . .&rdquo; (Phil. 3:10). But my perspective was knowing more about Jesus, not getting to know Him better. I had no idea what God&rsquo;s Spirit had in store for me as I studied. With each name, my understanding of Jesus&rsquo; character and roles grew, but even more, the understanding of His work in my life.</p>
 			<div class="well">
-				<h3><a href="#">LYWB Event Promo</a></h3>
+				<h3><a href="#">TW Event Promo</a></h3>
 			</div>
 			<p>When Nancy asked me to help her research the names of Jesus for an upcoming series, I thought&mdash;to be honest&mdash;&ldquo;This will be interesting, but sort of ho-hum.&rdquo; After all, I&rsquo;d heard most of those names since I was a small child. What more was there to know?</p>
 			<p>So as I began my research, I thought about the words of Paul: &ldquo;that I may know him . . .&rdquo; (Phil. 3:10). But my perspective was knowing more about Jesus, not getting to know Him better. I had no idea what God&rsquo;s Spirit had in store for me as I studied. With each name, my understanding of Jesus&rsquo; character and roles grew, but even more, the understanding of His work in my life.</p>
-			<div class="well">
-				<h3><a href="/seeking-him/">More from this Series . . .</a></h3>
+			<hr />
+			<p class="more-on-topic"><a href="/category/topic-slug">More on this topic . . .</a></p>
+			<div class="author-bio">
+				<img src="http://placehold.it/100x140" alt="" />
+				<h4>Dawn Wilson</h4>
+				<p>Candy canes sesame snaps gummi bears halvah chocolate bar. Chocolate bar carrot cake brownie applicake cookie cotton candy sesame snaps cheesecake. Soufflé pastry macaroon danish wafer wafer carrot cake. Chocolate bar cotton candy halvah caramels.</p>
+				<p class="read-more"><a href="#">More from this author &rarr;</a></p>
 			</div>
-
+			<hr />
+			<div id="comments">
+				<div class="well">
+					<h2>Comments</h2>
+					<p>Comments will go down here as a Disqus plugin.</p>
+			</div>
 		</section>
 		<aside>
 			<div class="topics">

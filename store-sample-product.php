@@ -3,19 +3,16 @@
 $sectionName = "Store";
 $programName = "Books";
 $pageTitle = "The Wonder of His Name Book + Bookmark";
-$bodyCss = "store books page page-full-width page-product-detail page-product-book has-top-social-buttons";
+$bodyCss = "store books page page-full-width page-product-detail page-product-book has-top-social-buttons page-secondary-nav";
 
 ?>
 
 <?php include "_header.php"; ?>
-<div class="top-social-buttons visible-xs">
-	<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button><button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button><button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button><button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
-</div>
-<div class="jumbotron">
-	<div class="container">
-		<h1><?php echo $programName; ?></h1>
-	</div>
-</div>
+
+<?php include "_social_buttons_2.php" ?>
+
+<?php include "_navbar_store.php" ?>
+
 <div class="container">
 	<ol class="breadcrumb">
 		<li><a href="/">Home</a></li>

@@ -8,14 +8,10 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 ?>
 
 <?php include "_header.php"; ?>
-<div class="top-social-buttons visible-xs">
-	<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button><button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button><button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button><button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
-</div>
-<div class="jumbotron">
-	<div class="container">
-		<h1><?php echo $programName; ?></h1>
-	</div>
-</div>
+
+<?php include "_social_buttons_2.php" ?>
+
+<?php include "_navbar_programs.php" ?>
 
 <div class="container">
 	<ol class="breadcrumb">
@@ -41,7 +37,16 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 	
 		<section class="main" role="main">
 			<div class="entry-content">
-				<div id="" class="media-player-wrapper">
+				<video src="/media/connection.mp3" poster="<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg"  style="width: 100%; height: 100%;" id="player1" preload="none" >
+					<object width="436" height="331" type="application/x-shockwave-flash" data="/build/flashmediaelement.swf">        
+            <param name="movie" value="<?php echo $rohDomain; ?>/static/swf/player.swf" /> 
+            <param name="flashvars" value="controls=true&amp;file=/media/connection.mp3" />         
+            <!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed -->
+            <img src="http://placehold.it/800x640/text=No+Video+Playback+Capabilities" alt="No video playback capabilities" 
+                title="No video playback capabilities" />
+	        </object>
+				</video>
+				<!-- <div id="" class="media-player-wrapper">
 					<object id="program-13277" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="program-13277" width="100%" >
 						<param name="movie" value="<?php echo $rohDomain; ?>/static/swf/player.swf" />
 						<param name="allowfullscreen" value="true" />
@@ -61,7 +66,7 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 						/>
 					</object>
 					<script type='text/javascript' src='<?php echo $rohDomain; ?>/static/js/jwplayer.js'></script>
-				</div>
+				</div> -->
 
 				<div class="transcript">
 					<a name="transcript"></a>

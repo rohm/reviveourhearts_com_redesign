@@ -112,12 +112,16 @@
 		</nav>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="/js/html5slider.js"></script>
-    <script src="/js/bootstrap-player.js"></script>
+		<script src="/js/mediaelement-and-player.min.js"></script>
+		<link rel="stylesheet" href="/css/mediaelementplayer.min.css" />
 		<script>
-			$('[data-toggle=collapse]').click(function() {
-			  $('.row-offcanvas').toggleClass('active');
-			});
+		// jQuery method
+		$('video').mediaelementplayer();
 		</script>
+
+		<script>
+		// normal JavaScript 
+		var player = new MediaElementPlayer('#player');
+		</script>	
   </body>
 </html>

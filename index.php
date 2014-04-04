@@ -13,46 +13,25 @@ $('#home-carousel').carousel({
 })
 </script>
 
-<div id="todays-program-container">
+<div id="todays-program">
   <div class="container">
-		<div id="todays-program" class="jumbotron">
-			<h1>Today&rsquo;s Program Media Player</h1>
-			<p>We need a player that plays immediately while at the same time displaying a teaser.</p>
-			<!-- <object id="program-13277" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="program-13277" width="100%">
-				<param name="movie" value="<?php echo $rohDomain; ?>/static/swf/player.swf" />
-				<param name="allowfullscreen" value="true" />
-				<param name="allowscriptaccess" value="always" />
-				<param name="wmode" value="transparent" />
-				<param name="flashvars" value="file=<?php echo $rohDomain; ?>/static/program-audio/revive-our-hearts/2014-03-12.mp3&image=<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg" />
-				<embed
-						type="application/x-shockwave-flash"
-						id="program-13277"
-						name="program-13277"
-						src="<?php echo $rohDomain; ?>/static/swf/player.swf"
-						width="100%"
-						allowscriptaccess="always"
-						allowfullscreen="true"
-						flashvars="file=<?php echo $rohDomain; ?>/static/program-audio/revive-our-hearts/2014-03-12.mp3&image=<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg"
-						wmode="transparent"
-				/>
-			</object>
-			<script type='text/javascript' src='<?php echo $rohDomain; ?>/static/js/jwplayer.js'></script> -->
-			<!-- <audio controls>
-
-				<source src="http://williamrandol.github.io/bootstrap-player/media/cusb-cyl2985d.ogg" type="audio/ogg" />
-				<source src="http://williamrandol.github.io/bootstrap-player/media/cusb-cyl2985d.mp3" type="audio/mpeg" />
-				<a href="http://williamrandol.github.io/bootstrap-player/media/cusb-cyl2985d.mp3">Today&rsquo;s Program</a>
-			</audio> -->
-
-
-
-		</div>
+		<article>
+			<header>
+				<h1>Today&rsquo;s Program</h1>
+				<p><strong>Nancy Leigh DeMoss Interviews Elyse Fitzpatrick</strong></p>
+				<p>Applicake apple pie danish sweet roll halvah tart jelly apple pie brownie. Apple pie toffee macaroon lemon drops. Cookie candy sugar plum cotton candy cookie macaroon cookie dragée. </p>
+				<p><a href="#">Full Transcript &rarr;</a></p>
+			</header>
+			<section>
+				<video src="/media/echo-hereweare.mp4"  poster="<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg" style="width: 100%; height: 100%;" id="player1" preload="none" ></video>
+			</section>
+		</article>
 	</div> <!-- /container -->
 </div>
 <div id="home-carousel-container" class="hidden-xs">
 	<div class="container">
 		<div id="home-carousel" class="carousel slide hero-carousel" data-ride="home-carousel">
-			
+
 			<div class="carousel-indicators hidden-xs">
 				<div class="indicator" data-target="#home-carousel" data-slide-to="0" class="active">
 					<img class="thumbnail img-responsive" src="http://placehold.it/60x60/AAD2C7/333&text=1" alt="" />
@@ -69,8 +48,8 @@ $('#home-carousel').carousel({
 				<div class="indicator" data-target="#home-carousel" data-slide-to="4">
 					<img class="thumbnail img-responsive" src="http://placehold.it/60x60/f8f8f83/333&text=5" alt="" />
 				</div>
-
 			</div>
+			
 			<div class="carousel-inner">
 				<div class="item active">
 					<img src="/img/carousel-tw14-register.jpg" alt="" />
@@ -109,7 +88,7 @@ $('#home-carousel').carousel({
 <div id="home-blogs" class="container">
 	<h2>Blogs</h2>
 	<section class="blog-entries">
-		
+
 		<ul class="media-list">
 			<li class="media">
 				<article>
@@ -157,7 +136,6 @@ $('#home-carousel').carousel({
 			</li>
 		</ul>
 		<aside>
-			<h3>Other Programs</h3>
 
 			<div class="well">
 				<h3><a href="/seeking-him/">Seeking Him</a></h3>
@@ -171,7 +149,7 @@ $('#home-carousel').carousel({
 				<a href="#">Women&rsquo;s Ministry Leaders &rarr;</a>
 			</div>
 		</aside>
-		
+
 	</section>
 
 	<div id="promo-key-resources">
@@ -180,7 +158,7 @@ $('#home-carousel').carousel({
 		</div>
 	</div>
 
-	
+
 </div>
 
 <?php include "_footer.php"; ?>

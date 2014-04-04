@@ -27,8 +27,14 @@ RewriteRule ^blogs/lies-young-women-believe$    blog-lywb.php
 RewriteRule ^blogs/lies-young-women-believe/post/$   blog-lywb-post.php
 RewriteRule ^blogs/lies-young-women-believe/post$    blog-lywb-post.php
 
+RewriteRule ^store/$   store.php
+RewriteRule ^store$    store.php
+
 RewriteRule ^store/sample-product/$   store-sample-product.php
 RewriteRule ^store/sample-product$    store-sample-product.php
+
+RewriteRule ^events/$   events.php
+RewriteRule ^events$    events.php
 
 RewriteRule ^contact/$   contact.php
 RewriteRule ^contact$    contact.php

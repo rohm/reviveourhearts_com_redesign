@@ -51,7 +51,6 @@
 									<i class="fa fa-user"></i><b class="caret"></b>
 								</a>
 	            </li>
-
 	          </ul>
 
 	          <ul class="nav navbar-nav navbar-left">
@@ -86,14 +85,15 @@
 	            <li id="parent-events" class="dropdown">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
-				          <li><a href="#">Upcoming Events</a></li>
-									<li><a href="#">Past Events</a></li>
+									<li><a href="/events/">All</a></li>
+				          <li><a href="/events/">Upcoming Events</a></li>
+									<li><a href="/events/">Past Events</a></li>
 	              </ul>
 	            </li>
 	            <li id="parent-store" class="dropdown">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Store <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
-				          <li><a href="#">All</a></li>
+				          <li><a href="/store/">All</a></li>
 									<li><a href="#">By Category</a></li>
 									<li><a href="#">By Topic</a></li>
 									<li><a href="/store/sample-product/">Sample Product</a></li>
