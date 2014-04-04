@@ -57,7 +57,7 @@
 	            <li id="parent-about"><a href="/about-us/who-we-are/">About</a></li>
 
 	            <li id="parent-resources" class="dropdown">
-	              <a href="/resource-library/" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+	              <a href="/resource-library/" class="dropdown-toggle disabled" data-toggle="dropdown">Resources <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 	                <li><a href="#">Browse All</a></li>
 	                <li><a href="#">By Category</a></li>
