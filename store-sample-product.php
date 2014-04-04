@@ -49,14 +49,9 @@ $bodyCss = "store books page page-full-width page-product-detail page-product-bo
 			      </form>
 					</div>
 				</div>
-				<div class="social-buttons-inner">
+				<div class="social-buttons-inner hidden-xs ">
 					<div class="well well-bg">
-						<div class="button-group">
-							<button class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</button>
-							<button class="btn btn-facebook"><i class="fa fa-facebook"></i> Like</button>
-							<button class="btn btn-pinterest"><i class="fa fa-pinterest"></i> Pin</button>
-							<button class="btn btn-google-plus"><i class="fa fa-google-plus"></i> +</button>
-						</div>
+						<?php include "_social_buttons_1.php" ?>
 					</div>
 				</div>
 			</div>

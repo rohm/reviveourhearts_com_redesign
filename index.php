@@ -23,7 +23,7 @@ $('#home-carousel').carousel({
 				<p><a href="#">Full Transcript &rarr;</a></p>
 			</header>
 			<section>
-				<video src="/media/echo-hereweare.mp4"  poster="<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg" style="width: 100%; height: 100%;" id="player1" preload="none" ></video>
+				<video src="http://reviveourhearts.com.s3.amazonaws.com/radio_programs/revive-our-hearts/2014-03-24.mp3"  poster="<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg" style="width: 100%; height: 100%;" id="player1" preload="none" ></video>
 			</section>
 		</article>
 	</div> <!-- /container -->
