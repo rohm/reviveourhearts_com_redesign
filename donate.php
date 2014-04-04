@@ -202,13 +202,11 @@ $bodyCss = "donate page page-simple";
 							<input type="text" class="form-control" id="" placeholder="Zip/Postal Code">
 							<small class="sr-only help-text">Zip/Postal Code</small>
 						</div>
-					</div>
-
-					<div class="form-group form-group-country">
-						<label for="">Country</label>
-						<select class="form-control">
-							<?php echo $country_menu; ?>
-						</select>
+						<div class="form-group form-group-country">
+							<select class="form-control">
+								<?php echo $country_menu; ?>
+							</select>
+						</div>
 					</div>
 				</div>
 				<div class="form-group">

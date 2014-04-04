@@ -70,6 +70,7 @@
     <option value="YT">Yukon</option>
   ';
   $country_menu = '
+		<option>- Country -</option>
     <option value="AF">Afghanistan</option>
     <option value="AX">Åland Islands</option>
     <option value="AL">Albania</option>
@@ -305,7 +306,7 @@
     <option value="UA">Ukraine</option>
     <option value="AE">United Arab Emirates</option>
     <option value="GB">United Kingdom</option>
-    <option value="US" selected>United States</option>
+    <option value="US">United States</option>
     <option value="UM">United States Minor Outlying Islands</option>
     <option value="UY">Uruguay</option>
     <option value="UZ">Uzbekistan</option>
