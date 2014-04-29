@@ -51,6 +51,9 @@ $bodyCss = "donate page page-simple";
 						<input type="radio" id="formtools_amount_5" value="custom" name="amount" required="">
 						<label for="formtools_amount_5"><span><i class="fa fa-circle"></i></span>Other:</label>
 						<input type="text" class="form-control form-control-inline" name="amount_2" placeholder="$">
+						
+
+						
 					</div>
 					
 
@@ -214,9 +217,10 @@ $bodyCss = "donate page page-simple";
 				</div>
 				<div class="form-group">
 					<div class="checkbox">
-
-						<input type="checkbox" id="" name="" value="" />
-						<label> Sign up for email list <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a></label>
+						<input type="checkbox" id="blah_1" />
+						<label for="blah_1"><span><i class="fa fa-check"></i></span> Sign up for email list <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a>.</label>
+						
+						
 					</div>
 				</div>
 				<div class="form-group">
