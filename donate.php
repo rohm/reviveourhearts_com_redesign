@@ -29,27 +29,30 @@ $bodyCss = "donate page page-simple";
 
 					<h2>Gift Amount</h2>
 
-						<label for="formtools_amount_1">
-						<input type="radio" id="formtools_amount_1" value="25" name="amount" required="" checked="">
-							$25
-						</label>
-						<label for="formtools_amount_2">
+						
+						<input type="radio" id="formtools_amount_1" value="25" name="amount" required="">
+						<label for="formtools_amount_1"><span><i class="fa fa-circle"></i></span>$25</label>
+						
 						<input type="radio" id="formtools_amount_2" value="50" name="amount" required="">
-							$50
+						<label for="formtools_amount_2">
+							<span><i class="fa fa-circle"></i></span>$50
 						</label>
-						<label for="formtools_amount_3">
+						
 						<input type="radio" id="formtools_amount_3" value="75" name="amount" required="">
-							$75
+						<label for="formtools_amount_3">
+							<span><i class="fa fa-circle"></i></span>$75
 						</label>
-						<label for="formtools_amount_4">
+						
 						<input type="radio" id="formtools_amount_4" value="100" name="amount" required="">
-							$100
+						<label for="formtools_amount_4">
+							<span><i class="fa fa-circle"></i></span>$100
 						</label>
-						<label for="formtools_amount_5"> Other:
-							<input type="radio" id="formtools_amount_5" value="custom" name="amount" required="">
-							<input type="text" class="form-control form-control-inline" name="amount_2" placeholder="$">
-						</label>
+						
+						<input type="radio" id="formtools_amount_5" value="custom" name="amount" required="">
+						<label for="formtools_amount_5"><span><i class="fa fa-circle"></i></span>Other:</label>
+						<input type="text" class="form-control form-control-inline" name="amount_2" placeholder="$">
 					</div>
+					
 
 					<div id="div_formtools_recurrence" class="form-group  gift-frequency ">
 						<label class="control-label">Frequency of your gift: </label>

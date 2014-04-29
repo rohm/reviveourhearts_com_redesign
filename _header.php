@@ -23,7 +23,7 @@
     </script>
   </head>
   <body class="<?php echo $bodyCss; ?>">
-    <div id="main-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
 				<div class="navbar-wrap">
 	        <div class="navbar-header">

@@ -322,3 +322,48 @@
 	.box-shadow(inset 0 2px 0 rgba(0,0,0,.055));
 	border-radius: @radius-default;
 }
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+	
+	& + label span {
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		background-color: #fff;
+		border-radius: 2px;
+		cursor:pointer;
+		position: relative;
+		margin: 0 3px 0 0;
+		top: 3px;
+		.box-shadow(inset 0 2px 0 rgba(0,0,0,.15));
+		.fa {
+			display: none;
+			margin: 0;
+			position: absolute;
+			top: 4px;
+			left: 4px;
+			font-size: .7em;
+		}
+	}
+	&:checked + label span {
+		.fa {
+			display: block;
+		}
+	}
+}
+input[type="checkbox"] {
+	& + label span {
+		.fa {
+			font-size: .8em;
+			top: 3px;
+			left: 3px;
+		}
+	}
+}
+input[type="radio"] {
+	& + label span {
+		border-radius: 20px;
+	}
+}
