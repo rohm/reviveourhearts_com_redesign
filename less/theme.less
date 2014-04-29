@@ -55,6 +55,10 @@ hr {
   color: @req-color;
 }
 
+video {
+	.transition(none);
+}
+
 //
 // COMPONENTS
 // --------------------------------------------------
@@ -148,14 +152,14 @@ body.events #parent-events,
 body.store #parent-store,
 body.donate #parent-donate {
 	> a {
-		background-color: @well-bg;
+		background-color: #000;
 	}
 }
 
 @mega-menu-text-color: #ccc;
 
 .navbar {
-	
+	border-radius: 0;
 	#parent-cart,
 	#parent-account,
 	#search-menu {

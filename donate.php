@@ -50,7 +50,7 @@ $bodyCss = "donate page page-simple";
 						
 						<input type="radio" id="formtools_amount_5" value="custom" name="amount" required="">
 						<label for="formtools_amount_5"><span><i class="fa fa-circle"></i></span>Other:</label>
-						<input type="text" class="form-control form-control-inline" name="amount_2" placeholder="$">
+						<input type="text" class="form-control form-control-inline" name="amount_2" value="$">
 						
 
 						

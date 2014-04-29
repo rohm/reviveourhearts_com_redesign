@@ -1,4 +1,4 @@
-<div id="section-nav" class="navbar navbar-default" role="navigation">
+<div id="section-nav" class="navbar" role="navigation">
 	<div class="navbar-wrap">
 	  <div class="container">
 	    <div class="navbar-header">
