@@ -18,8 +18,8 @@ $('#home-carousel').carousel({
 		<article>
 			<header>
 				<h1>Today&rsquo;s Program</h1>
-				<p><strong>Nancy Leigh DeMoss Interviews Elyse Fitzpatrick</strong></p>
-				<p>Applicake apple pie danish sweet roll halvah tart jelly apple pie brownie. Apple pie toffee macaroon lemon drops. Cookie candy sugar plum cotton candy cookie macaroon cookie dragée. </p>
+				<p><a href="#"><strong>Nancy Leigh DeMoss Interviews Elyse Fitzpatrick</strong></a></p>
+				<p class="hidden-sm">Applicake apple pie danish sweet roll halvah tart jelly apple pie brownie. Apple pie toffee macaroon lemon drops. Cookie candy sugar plum cotton candy cookie macaroon cookie dragée. </p>
 				<p><a href="#">Full Transcript &rarr;</a></p>
 			</header>
 			<section>
