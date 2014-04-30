@@ -609,8 +609,6 @@ footer#global-footer {
 	}
 }
 
-
-
 #footer-legal {
 	padding: 20px 0 20px;
 	border-top: 1px solid darken(@gray-lighter, 5%);
@@ -950,6 +948,46 @@ footer#global-footer {
 	}
 	.form-group-address {
 		margin-bottom: 3em;
+	}
+}
+
+
+//
+// Events
+// --------------------------------------------------
+
+.events {
+	#content {
+		.make-row();
+		#speakers {
+			.make-sm-column(9);
+		}
+		.section-nav {
+			.make-sm-column(3);
+		}
+	}
+}
+
+#speakers {
+	.speaker-list {
+		.make-row();
+	}
+	h2 {
+		clear: both;
+	}
+	.speaker {
+		.make-sm-column(4);
+		.make-xs-column(6);
+		padding-bottom: 20px;
+		h3 {
+			font-size: 1.2em;
+			text-align: center;
+		}
+		
+		.clearfix();
+		img {
+			max-width: 100%;
+		}
 	}
 }
 

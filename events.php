@@ -2,7 +2,7 @@
 
 $sectionName = "Events";
 $pageTitle = "The Wonder of His Name Book + Bookmark";
-$bodyCss = "store page page-full-width landing landing-store has-top-social-buttons page-secondary-nav";
+$bodyCss = "events page page-full-width landing landing-store has-top-social-buttons page-secondary-nav";
 
 ?>
 
@@ -15,7 +15,7 @@ $bodyCss = "store page page-full-width landing landing-store has-top-social-butt
 
 <div class="container">
 	
-	<div class="jumbotron" style="padding-top: 80px;">
+	<div class="jumbotron" style="padding-top: 80px; background: #333  url(https://deasb92jiz6fv.cloudfront.net/9b/7242b98c6fe6bda18bccdc61a4ea2b/lightstock-96118-family-bible-study-after-the-thanksgiving-meal--16.jpg); background-size: 100% auto; background-position: center center; background-repeat: no-repeat;">
 		<h1>Big Huge Ad for Upcoming Event</h1>
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
@@ -27,6 +27,88 @@ $bodyCss = "store page page-full-width landing landing-store has-top-social-butt
 		</nav>
 	</div>
 	
+	<div id="content">
+		<section id="speakers">
+			<h2 class="border text-glow">Speakers</h2>
+			<div class="speaker-list">
+				<div class="speaker">
+				  <a href="/speakers#nancy"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-nancy.jpg" alt="Nancy Leigh DeMoss"></a><br>
+				<h3><a href="/speakers#nancy">Nancy Leigh DeMoss</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#joni"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-joni.jpg" alt="Joni Eareckson Tada"></a><br>
+				<h3><a href="/speakers#joni">Joni Eareckson Tada</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#janet"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-janet.jpg" alt="Janet Parshall"></a><br>
+				<h3><a href="/speakers#janet">Janet Parshall</a></h3>
+				<p></p></div>
+	
+				<div class="speaker">
+				  <a href="/speakers#mary"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-mary.jpg" alt="Mary Kassian"></a><br>
+				<h3><a href="/speakers#mary">Mary Kassian</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#jim"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-jim.jpg" alt="Jim Cymbala"></a><br>
+				<h3><a href="/speakers#jim">Jim Cymbala</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				    <a href="/speakers#dannah"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-dannah.jpg" alt="Dannah Gresh"></a><br>
+				<h3><a href="/speakers#dannah">Dannah Gresh</a></h3>
+				<p></p></div>
+	
+				<div class="speaker">
+				    <a href="/speakers#erin"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-erin.jpg" alt="Erin Davis"></a><br>
+				<h3><a href="/speakers#erin">Erin Davis</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#jani"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-jani.jpg" alt="Jani Ortlund"></a><br>
+				<h3><a href="/speakers#jani">Jani Ortlund</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#angie"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-angie.jpg" alt="Angie Smith"></a><br>
+				<h3><a href="/speakers#angie">Angie Smith</a></h3>
+				<p></p></div>
+	
+				<div class="speaker">
+				    <a href="/speakers#lauren"><img alt="Photo of Leslie Bennett" src="http://truewoman14.s3.amazonaws.com/library/img/speaker-leslie.jpg"></a><br>
+				<h3><a href="/speakers#leslie">Leslie Bennett</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				    <a href="/speakers#lauren"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-lauren-chandler.jpg" alt="Lauren Chandler"></a><br>
+				<h3><a href="/speakers#lauren">Lauren Chandler</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				    <a href="/speakers#trillia"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-trillia.jpg" alt="Trillia Newbell"></a><br>
+				<h3><a href="/speakers#trillia">Trillia Newbell</a></h3>
+				<p></p></div>
+			</div>
+			<h2 class="border text-glow">Worship Artists</h2>
+			<div class="speaker-list">
+				<div class="speaker">
+				  <a href="/speakers#gettys"><img src="http://truewoman14.s3.amazonaws.com/library/img/musician-gettys.jpg" alt="Keith &amp; Kristyn Getty"></a><br>
+				<h3><a href="/speakers#gettys">Keith &amp; Kristyn Getty</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#blair"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-blair.jpg" alt="Blair Linne"></a><br>
+				<h3><a href="/speakers#blair">Blair Linne</a></h3>
+				<p></p></div>
+				<div class="speaker">
+				  <a href="/speakers#chicago"><img src="http://truewoman14.s3.amazonaws.com/library/img/musician-chicago-tab.jpg" alt="Chicago Tabernacle Choir"></a><br>
+				<h3><a href="/speakers#chicago">Chicago Tabernacle Choir</a></h3>
+				<p></p></div>
+			</div>
+		</section>
+		<aside class="section-nav">
+			<ul class="nav nav-stacked">
+				<li><a href="#speakers">Speakers</a></li>
+				<li><a href="#event-kit">Event Kit</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Challenges</a></li>
+				<li><a href="#">Register Today</a></li>
+			</ul>
+		</aside>
+	</div>
 	<h2>Things to include on this page:</h2>
 	<ul>
 		<li>Previous event resources</li>

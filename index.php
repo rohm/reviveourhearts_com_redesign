@@ -30,7 +30,7 @@ $('#home-carousel').carousel({
 </div>
 <div id="home-carousel-container" class="hidden-xs">
 	<div class="container">
-		<div id="home-carousel" class="carousel slide hero-carousel" data-ride="home-carousel">
+		<div id="home-carousel" class="carousel slide hero-carousel carousel-fade" data-ride="home-carousel">
 
 			<div class="carousel-indicators hidden-xs">
 				<div class="indicator" data-target="#home-carousel" data-slide-to="0" class="active">
@@ -52,23 +52,23 @@ $('#home-carousel').carousel({
 			
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="/img/carousel-tw14-register.jpg" alt="" />
+					<a href="http://www.truewoman14.com/register"><img src="/img/carousel-tw14-register.jpg" alt="" /></a>
 				</div>
 				<div class="item">
-					<img src="http://placehold.it/1140x588/111/B73F6D&text=Ad+For+Book" alt="" />
+					<a href="#"><img src="http://placehold.it/1140x588/111/B73F6D&text=Ad+For+Book" alt="" /></a>
 				</div>
 				<div class="item">
-					<img src="http://placehold.it/1140x588/B73F6D/fff&text=Ad+With+Text+Overlay" alt="" />
+					<a href="#"><img src="http://placehold.it/1140x588/B73F6D/fff&text=Ad+With+Text+Overlay" alt="" /></a>
 					<div class="carousel-caption">
 						<h3>Heading Text Overlay</h3>
 						<p>Lorem ipsum dolor sit amet, commodo cursus . . .</p>
 					</div>
 				</div>
 				<div class="item">
-					<img src="http://placehold.it/1140x588/399797/fff&text=Ad+For+A+Challenge" alt="" />
+					<a href="#"><img src="http://placehold.it/1140x588/399797/fff&text=Ad+For+A+Challenge" alt="" /></a>
 				</div>
 				<div class="item">
-					<img src="http://placehold.it/1140x588/f8f8f83/333&text=Ad+For+A+Program" alt="" />
+					<a href="#"><img src="http://placehold.it/1140x588/f8f8f83/333&text=Ad+For+A+Program" alt="" /></a>
 				</div>
 			</div>
 			<div class="visible-xs">
