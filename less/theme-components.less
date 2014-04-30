@@ -358,7 +358,17 @@
 	border-radius: @radius-default;
 }
 
-.checkbox {
+.form-group-row {
+	.make-row();
+	> div {
+		.make-sm-column(6);
+	}
+	& > div input {
+		margin-bottom: 10px;
+	}
+}
+
+.checkbox, .checkbox-inline {
 	padding-left: 0;
 }
 

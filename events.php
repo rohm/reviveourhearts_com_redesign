@@ -19,7 +19,15 @@ $bodyCss = "events page page-full-width landing landing-store has-top-social-but
 		<h1>Big Huge Ad for Upcoming Event</h1>
 		<div class="video-container">
 			<div class="video">
-				<video src="/media/echo-hereweare.mp4"  style="width: 100%; height: 100%;" id="player1" preload="none" ></video>
+				<video src="/media/connection.mp3" poster="<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg"  style="width: 100%; height: 100%;" id="player1" preload="none" >
+					<object width="436" height="331" type="application/x-shockwave-flash" data="/build/flashmediaelement.swf">        
+            <param name="movie" value="<?php echo $rohDomain; ?>/static/swf/player.swf" /> 
+            <param name="flashvars" value="controls=true&amp;file=/media/connection.mp3" />         
+            <!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed -->
+            <img src="http://placehold.it/800x640/text=No+Video+Playback+Capabilities" alt="No video playback capabilities" 
+                title="No video playback capabilities" />
+	        </object>
+				</video>
 			</div>
 		</div>
 		<nav style="margin-top: 30px;">

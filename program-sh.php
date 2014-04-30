@@ -140,12 +140,11 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 					<p>Your donation will help us continue bringing you the <em>Revive Our Hearts</em> podcast. Just visit <a href="/donate/">ReviveOurHearts.com</a>, or call 1–800–569–5959.&nbsp;</p>
 					<p><a href="/donate/"><img src="<?php echo $rohDomain; ?>/static/uploads/video_screengrabs/wohn-600x116-donate.jpg" alt="" width="600" height="116"></a></p>
 					<p>When you’re confused and have no one to talk with, don’t you wish you could find a perfect counselor to give you wise advice? You can. Nancy will tell you more about that tomorrow.&nbsp; Please be back for <em>Revive Our Hearts.</em></p>
-					<div class="well">
+					<div class="well credits">
 						<small>
 							<p><em>Revive Our Hearts</em> with Nancy Leigh DeMoss is an outreach of Life Action Ministries.</p>
-							<p><span style="font-size: xx-small;">All Scripture is taken from the English Standard Version.</span></p>
-							<p><span style="font-size: xx-small;">Dawn Wilson, Lindsay Swartz, and Darla Wilkinson provided helpful research assistance for this series.&nbsp;</span></p>
-							<p>&nbsp;</p>
+							<p>All Scripture is taken from the English Standard Version.</p>
+							<p>Dawn Wilson, Lindsay Swartz, and Darla Wilkinson provided helpful research assistance for this series.</p>
 							<p><em>Offers available only during the broadcast of the radio series.</em></p>
 					</small>
 				</div>
@@ -154,32 +153,30 @@ $bodyCss = "program sh page page-default page-secondary-nav has-top-social-butto
 		</section>
 
 		<aside>
-			<div class="well">
-				<h3><?php echo $sectionName; ?></h3>
-				<ul class="nav">
+			<h3><?php echo $sectionName; ?></h3>
+			<ul class="nav">
 
-					<li class="active">
-						<a href="#">Revive Our Hearts</a>
-						<ul>
-							<li><a href="#">Today&rsquo;s Program</a></li>
-							<li><a href="#">For Your Donation</a></li>
-							<li><a href="#">Past Programs</a></li>
-							<li><a href="#">Future Programs</a></li>
-							<li><a href="#">Listen in Your Area</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Seeking Him</a>
-						<ul>
-							<li><a href="#">Today&rsquo;s Program</a></li>
-							<li><a href="#">For Your Donation</a></li>
-							<li><a href="#">Past Programs</a></li>
-							<li><a href="#">Future Programs</a></li>
-							<li><a href="#">Listen in Your Area</a></li>
-						</ul>
-					</li>
-				</ul>
+				<li class="active">
+					<a href="#">Revive Our Hearts</a>
+					<ul>
+						<li><a href="#">Today&rsquo;s Program</a></li>
+						<li><a href="#">For Your Donation</a></li>
+						<li><a href="#">Past Programs</a></li>
+						<li><a href="#">Future Programs</a></li>
+						<li><a href="#">Listen in Your Area</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Seeking Him</a>
+					<ul>
+						<li><a href="#">Today&rsquo;s Program</a></li>
+						<li><a href="#">For Your Donation</a></li>
+						<li><a href="#">Past Programs</a></li>
+						<li><a href="#">Future Programs</a></li>
+						<li><a href="#">Listen in Your Area</a></li>
+					</ul>
+				</li>
+			</ul>
 
-			</div>
 		</aside>
 
 	</article>

@@ -99,7 +99,7 @@ $bodyCss = "donate page page-simple";
 								    </small>
 								  </label>
 
-								    <input class="form-control" type="text" name="credit_number" required="" pattern="[0-9]{13,16}" autocomplete="off" placeholder="XXXXXXXXXXXXXXX" id="formtools_credit_number">
+								    <input class="form-control" type="text" name="credit_number" required="" pattern="[0-9]{13,16}" autocomplete="off" placeholder="xxxxxxxxxxxxxxx" id="formtools_credit_number">
 
 								</div>
         				<div class="form-group-row">
@@ -110,7 +110,7 @@ $bodyCss = "donate page page-simple";
 																	<i class="fa fa-info-circle"></i>
 									  </a></label>
 
-									    <input class="form-control" type="text" name="ccv_number" required="" autocomplete="off" placeholder="XXX" id="formtools_ccv_number">
+									    <input class="form-control" type="text" name="ccv_number" required="" autocomplete="off" placeholder="xxx" id="formtools_ccv_number">
 
 									</div>
 									<div class="form-group form-group-cc-expire">

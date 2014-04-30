@@ -76,14 +76,14 @@
 	              </ul>
 	            </li>
 	            <li id="parent-blogs" class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+	              <a href="/blogs/" class="dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 				          <li><a href="/blogs/true-woman/">True Woman</a></li>
 									<li><a href="/blogs/lies-young-women-believe/">Lies Young Women Believe</a></li>
 	              </ul>
 	            </li>
 	            <li id="parent-events" class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+	              <a href="/events/" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 									<li><a href="/events/">All</a></li>
 				          <li><a href="/events/">Upcoming Events</a></li>
@@ -91,7 +91,7 @@
 	              </ul>
 	            </li>
 	            <li id="parent-store" class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Store <b class="caret"></b></a>
+	              <a href="/store/" class="dropdown-toggle" data-toggle="dropdown">Store <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 				          <li><a href="/store/">All</a></li>
 									<li><a href="#">By Category</a></li>

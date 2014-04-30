@@ -33,19 +33,23 @@
 				<!-- Your Name -->
 				<div class="form-group">
 					<label for="">Your Name</label>
-					<div class="row">
-						<div class="col-xs-6"><input type="text" class="form-control" id="" placeholder="First"><small class="sr-only help-text">First Name</small></div>
-						<div class="col-xs-6"><input type="text" class="form-control" id="" placeholder="Last"><small class="sr-only help-text">Last Name</small></div>
+					<div class="form-group-row">
+						<div class="first-name"><input type="text" class="form-control" id="" placeholder="First"><small class="sr-only help-text">First Name</small></div>
+						<div class="last-name"><input type="text" class="form-control" id="" placeholder="Last"><small class="sr-only help-text">Last Name</small></div>
 					</div>
 				</div>
 				<!-- Email Address -->
 				<div class="form-group">
-					<label for="">Email address</label>
-					<input type="email" class="form-control" id="" placeholder="Enter email">
-				</div>
-				<div class="form-group">
-					<label for="">Phone</label>
-					<input type="tel" class="form-control" id="" placeholder="(optional)">
+					<div class="form-group-row">
+						<div class="email">
+							<label for="">Email address</label>
+							<input type="email" class="form-control" id="" placeholder="Enter email">
+						</div>
+						<div class="phone">
+							<label for="">Phone</label>
+							<input type="tel" class="form-control" id="" placeholder="(optional)">
+						</div>
+					</div>
 				</div>
 				<div class="form-group">
 					<label for="">Notes/Comments</label>
@@ -54,8 +58,9 @@
 				<div class="form-group">
 
 					<div class="checkbox">
-						<label class="checkbox-inline">
-							<input type="checkbox"> Sign up for email list <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
+						<input type="checkbox" id="signup-email">
+						<label class="checkbox-inline" for="signup-email">
+							 <span><i class="fa fa-check"></i></span> Sign up for email list <a href="#"><i class="glyphicon glyphicon-question-sign"></i></a>
 						</label>
 					</div>
 
@@ -69,14 +74,14 @@
 		</section>
 
 		<aside>
-			<div class="well">
-				<p><strong class="tel">Toll free: <?php echo $rohTollFree; ?></strong></p>
-				<p>
-					<address>
-						<?php echo $rohMailingAddress; ?><br>
-					</address>
-				</p>
-			</div>
+
+			<p><strong class="tel">Toll free: <?php echo $rohTollFree; ?></strong></p>
+
+			<address>
+				<?php echo $rohMailingAddress; ?><br>
+			</address>
+
+
 		</aside>
 
 	</article>

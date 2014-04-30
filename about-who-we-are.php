@@ -33,57 +33,57 @@
 
 
 		<aside>
-			<div class="well">
-				<h3 class="section-name"><?php echo $sectionName; ?></h3>
-				<ul class="nav">
 
-					<li class="inactive">
-						<a href="/about-us/nancy-leigh-demoss/">Nancy
-						Leigh DeMoss</a>
+			<h3 class="section-name"><?php echo $sectionName; ?></h3>
+			<ul class="nav nav-stacked">
 
-						<ul style="display: none;">
-							<li class="nancy-interview one inactive"><a href=
-							"/about-us/nancy-leigh-demoss/nancy-interview/">An Interview with Nancy</a></li>
+				<li class="inactive">
+					<a href="/about-us/nancy-leigh-demoss/">Nancy
+					Leigh DeMoss</a>
 
-							<li class="speaking two inactive"><a href=
-							"/about-us/nancy-leigh-demoss/speaking/">Invitations for Nancy's
-							Endorsement</a></li>
+					<ul style="display: none;">
+						<li class="nancy-interview one inactive"><a href=
+						"/about-us/nancy-leigh-demoss/nancy-interview/">An Interview with Nancy</a></li>
 
-							<li class="invitations-nancy-speak three inactive"><a href=
-							"/about-us/nancy-leigh-demoss/invitations-nancy-speak/">Invitations for Nancy to
-							Speak</a></li>
-						</ul>
-					</li>
+						<li class="speaking two inactive"><a href=
+						"/about-us/nancy-leigh-demoss/speaking/">Invitations for Nancy's
+						Endorsement</a></li>
 
-					<li class="who-we-are two active"><a href="/about-us/who-we-are/">Who We Are</a></li>
+						<li class="invitations-nancy-speak three inactive"><a href=
+						"/about-us/nancy-leigh-demoss/invitations-nancy-speak/">Invitations for Nancy to
+						Speak</a></li>
+					</ul>
+				</li>
 
-					<li class="revive-our-hearts-speakers three inactive"><a href=
-					"/about-us/revive-our-hearts-speakers/">Revive Our Hearts Speakers</a></li>
+				<li class="who-we-are two active"><a href="/about-us/who-we-are/">Who We Are</a></li>
 
-					<li class="ministry-video four inactive"><a href=
-					"http://www.reviveourhearts.com/tenth-anniversary/">Celebrating Ten Years of
-					Ministry</a></li>
+				<li class="revive-our-hearts-speakers three inactive"><a href=
+				"/about-us/revive-our-hearts-speakers/">Revive Our Hearts Speakers</a></li>
 
-					<li class="opportunities-to-serve five inactive"><a href=
-					"/about-us/opportunities-to-serve/">Opportunities to Serve</a></li>
+				<li class="ministry-video four inactive"><a href=
+				"http://www.reviveourhearts.com/tenth-anniversary/">Celebrating Ten Years of
+				Ministry</a></li>
 
-					<li class="statement-of-faith six inactive"><a href=
-					"/about-us/statement-of-faith/">Statement of Faith</a></li>
+				<li class="opportunities-to-serve five inactive"><a href=
+				"/about-us/opportunities-to-serve/">Opportunities to Serve</a></li>
 
-					<li class="endorsements seven inactive"><a href=
-					"/about-us/endorsements/">Endorsements</a></li>
+				<li class="statement-of-faith six inactive"><a href=
+				"/about-us/statement-of-faith/">Statement of Faith</a></li>
 
-					<li class="changed-lives eight inactive"><a href="/about-us/changed-lives/">Changed
-					Lives</a></li>
+				<li class="endorsements seven inactive"><a href=
+				"/about-us/endorsements/">Endorsements</a></li>
 
-					<li class="frequently-asked-questions nine inactive"><a href=
-					"http://www.reviveourhearts.com/resource-library/frequently-asked-questions/">Frequently
-					Asked Questions (FAQ)</a></li>
+				<li class="changed-lives eight inactive"><a href="/about-us/changed-lives/">Changed
+				Lives</a></li>
 
-					<li class="advisory-board 10 inactive"><a href="/about-us/advisory-board/">Advisory
-					Board</a></li>
-				</ul>
-			</div>
+				<li class="frequently-asked-questions nine inactive"><a href=
+				"http://www.reviveourhearts.com/resource-library/frequently-asked-questions/">Frequently
+				Asked Questions (FAQ)</a></li>
+
+				<li class="advisory-board 10 inactive"><a href="/about-us/advisory-board/">Advisory
+				Board</a></li>
+			</ul>
+
 		</aside>
 
 	</article>

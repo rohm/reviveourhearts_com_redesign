@@ -2,7 +2,7 @@
 	<div class="navbar-wrap">
 	  <div class="container">
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="/programs/"><em><?php echo $programName ?></em></a>
+	      <a class="navbar-brand" href="/programs/"><em>Programs / <?php echo $programName ?></em></a>
 	    </div>
 	    <div class="hidden-xs pull-right">
 	      <ul class="nav navbar-nav navbar-left">

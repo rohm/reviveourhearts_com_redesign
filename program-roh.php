@@ -37,27 +37,17 @@ $bodyCss = "program roh page page-default page-secondary-nav has-top-social-butt
 	
 		<section class="main" role="main">
 			<div class="entry-content">
-				<div id="" class="media-player-wrapper">
-					<object id="program-13277" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="program-13277" width="100%">
-						<param name="movie" value="<?php echo $rohDomain; ?>/static/swf/player.swf" />
-						<param name="allowfullscreen" value="true" />
-						<param name="allowscriptaccess" value="always" />
-						<param name="wmode" value="transparent" />
-						<param name="flashvars" value="file=<?php echo $rohDomain; ?>/static/program-audio/revive-our-hearts/2014-03-12.mp3&image=<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg" />
-						<embed
-								type="application/x-shockwave-flash"
-								id="program-13277"
-								name="program-13277"
-								src="<?php echo $rohDomain; ?>/static/swf/player.swf"
-								width="100%"
-								allowscriptaccess="always"
-								allowfullscreen="true"
-								flashvars="file=<?php echo $rohDomain; ?>/static/program-audio/revive-our-hearts/2014-03-12.mp3&image=<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg"
-								wmode="transparent"
-						/>
-					</object>
-					<script type='text/javascript' src='<?php echo $rohDomain; ?>/static/js/jwplayer.js'></script>
-				</div>
+				<video src="/media/connection.mp3" poster="<?php echo $rohDomain; ?>/static/uploads/program-images/rectangular/rs-wonder-immanuel_jpg_615x300_q85.jpg"  style="width: 100%; height: 100%;" id="player1" preload="none" >
+					<object width="436" height="331" type="application/x-shockwave-flash" data="/build/flashmediaelement.swf">        
+            <param name="movie" value="<?php echo $rohDomain; ?>/static/swf/player.swf" /> 
+            <param name="flashvars" value="controls=true&amp;file=/media/connection.mp3" />         
+            <!-- Image fall back for non-HTML5 browser with JavaScript turned off and no Flash player installed -->
+            <img src="http://placehold.it/800x640/text=No+Video+Playback+Capabilities" alt="No video playback capabilities" 
+                title="No video playback capabilities" />
+	        </object>
+				</video>
+				
+				
 
 				<div class="transcript">
 					<a name="transcript"></a>
@@ -131,12 +121,11 @@ $bodyCss = "program roh page page-default page-secondary-nav has-top-social-butt
 					<p>Your donation will help us continue bringing you the <em>Revive Our Hearts</em> podcast. Just visit <a href="/donate/">ReviveOurHearts.com</a>, or call 1–800–569–5959.&nbsp;</p>
 					<p><a href="/donate/"><img src="<?php echo $rohDomain; ?>/static/uploads/video_screengrabs/wohn-600x116-donate.jpg" alt="" width="600" height="116"></a></p>
 					<p>When you’re confused and have no one to talk with, don’t you wish you could find a perfect counselor to give you wise advice? You can. Nancy will tell you more about that tomorrow.&nbsp; Please be back for <em>Revive Our Hearts.</em></p>
-					<div class="well">
+					<div class="well credits">
 						<small>
 							<p><em>Revive Our Hearts</em> with Nancy Leigh DeMoss is an outreach of Life Action Ministries.</p>
-							<p><span style="font-size: xx-small;">All Scripture is taken from the English Standard Version.</span></p>
-							<p><span style="font-size: xx-small;">Dawn Wilson, Lindsay Swartz, and Darla Wilkinson provided helpful research assistance for this series.&nbsp;</span></p>
-							<p>&nbsp;</p>
+							<p>All Scripture is taken from the English Standard Version.</p>
+							<p>Dawn Wilson, Lindsay Swartz, and Darla Wilkinson provided helpful research assistance for this series.</p>
 							<p><em>Offers available only during the broadcast of the radio series.</em></p>
 					</small>
 				</div>
@@ -144,33 +133,33 @@ $bodyCss = "program roh page page-default page-secondary-nav has-top-social-butt
 			</div>
 		</section>
 
-		<aside>
-			<div class="well">
-				<h3><?php echo $sectionName; ?></h3>
-				<ul class="nav">
+		<aside class="section-nav">
 
-					<li class="active">
-						<a href="#">Revive Our Hearts</a>
-						<ul>
-							<li><a href="#">Today&rsquo;s Program</a></li>
-							<li><a href="#">For Your Donation</a></li>
-							<li><a href="#">Past Programs</a></li>
-							<li><a href="#">Future Programs</a></li>
-							<li><a href="#">Listen in Your Area</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Seeking Him</a>
-						<ul>
-							<li><a href="#">Today&rsquo;s Program</a></li>
-							<li><a href="#">For Your Donation</a></li>
-							<li><a href="#">Past Programs</a></li>
-							<li><a href="#">Future Programs</a></li>
-							<li><a href="#">Listen in Your Area</a></li>
-						</ul>
-					</li>
-				</ul>
+			<h3><?php echo $sectionName; ?></h3>
+			<ul class="nav nav-stacked">
 
-			</div>
+				<li class="active">
+					<a href="#">Revive Our Hearts</a>
+					<ul>
+						<li><a href="#">Today&rsquo;s Program</a></li>
+						<li><a href="#">For Your Donation</a></li>
+						<li><a href="#">Past Programs</a></li>
+						<li><a href="#">Future Programs</a></li>
+						<li><a href="#">Listen in Your Area</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Seeking Him</a>
+					<ul>
+						<li><a href="#">Today&rsquo;s Program</a></li>
+						<li><a href="#">For Your Donation</a></li>
+						<li><a href="#">Past Programs</a></li>
+						<li><a href="#">Future Programs</a></li>
+						<li><a href="#">Listen in Your Area</a></li>
+					</ul>
+				</li>
+			</ul>
+
+
 		</aside>
 
 	</article>
