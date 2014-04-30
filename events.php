@@ -17,9 +17,9 @@ $bodyCss = "events page page-full-width landing landing-store has-top-social-but
 	
 	<div class="jumbotron" style="padding-top: 80px; background: #333  url(https://deasb92jiz6fv.cloudfront.net/9b/7242b98c6fe6bda18bccdc61a4ea2b/lightstock-96118-family-bible-study-after-the-thanksgiving-meal--16.jpg); background-size: 100% auto; background-position: center center; background-repeat: no-repeat;">
 		<h1>Big Huge Ad for Upcoming Event</h1>
-		<div class="row">
-			<div class="col-sm-6 col-sm-offset-3">
-			<video src="/media/echo-hereweare.mp4"  style="width: 100%; height: 100%;" id="player1" preload="none" ></video>
+		<div class="video-container">
+			<div class="video">
+				<video src="/media/echo-hereweare.mp4"  style="width: 100%; height: 100%;" id="player1" preload="none" ></video>
 			</div>
 		</div>
 		<nav style="margin-top: 30px;">
@@ -109,14 +109,6 @@ $bodyCss = "events page page-full-width landing landing-store has-top-social-but
 			</ul>
 		</aside>
 	</div>
-	<h2>Things to include on this page:</h2>
-	<ul>
-		<li>Previous event resources</li>
-		<li>Link to event kit</li>
-		<li>Videos</li>
-		<li>Challenges</li>
-		<li>... need more input ...</li>
-
 </div>
 
 
