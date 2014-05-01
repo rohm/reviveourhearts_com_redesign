@@ -124,6 +124,7 @@
 			var player = new MediaElementPlayer('#player');
 
 			jQuery(function($) {
+				
 				$('.navbar .dropdown').hover(function() {
 				$(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
 				}, function() {
@@ -133,6 +134,7 @@
 					location.href = this.href;
 				});
 			});
+
 		</script>
   </body>
 </html>

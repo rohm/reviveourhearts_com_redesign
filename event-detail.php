@@ -276,11 +276,11 @@ $bodyCss = "events page landing landing-event has-top-social-buttons page-second
 		
 		<aside class="section-nav">
 			<ul class="nav nav-stacked">
-				<li><a href="#speakers">Speakers</a></li>
+				<li><a href="#speakers">Speakers 2</a></li>
 				<li><a href="#event-kit">Event Kit</a></li>
 				<li><a href="#videos">Videos</a></li>
 				<li><a href="#challenges">Challenges</a></li>
-				<li><a class="btn btn-primary" href="/register/">Register Today</a></li>
+				<li><a class="btn btn-default" href="/register/">Register Today</a></li>
 			</ul>
 		</aside>
 	</article>
