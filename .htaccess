@@ -36,6 +36,9 @@ RewriteRule ^store/sample-product$    store-sample-product.php
 RewriteRule ^events/$   events.php
 RewriteRule ^events$    events.php
 
+RewriteRule ^event-detail/$   event-detail.php
+RewriteRule ^event-detail$    event-detail.php
+
 RewriteRule ^contact/$   contact.php
 RewriteRule ^contact$    contact.php
 

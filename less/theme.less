@@ -55,6 +55,7 @@ hr {
   color: @req-color;
 }
 
+.video *,
 video {
 	.transition(none) !important;
 }
@@ -912,21 +913,21 @@ article.entry > aside {
 	}
 }
 
-.cards {
-	.make-row();
-	margin-bottom: 50px;
-	.card {
-		.make-sm-column(3);
-		text-align: center;
-		margin-bottom: 1em;
-		h4 {
-			margin: .5em 0;
-		}
-		p.product-type {
-			margin: 0 0 1em;
-		}
-	}
-}
+// .cards {
+// 	.make-row();
+// 	margin-bottom: 50px;
+// 	.card {
+// 		.make-sm-column(3);
+// 		text-align: center;
+// 		margin-bottom: 1em;
+// 		h4 {
+// 			margin: .5em 0;
+// 		}
+// 		p.product-type {
+// 			margin: 0 0 1em;
+// 		}
+// 	}
+// }
 
 //
 // Donate
@@ -1017,39 +1018,61 @@ article.entry > aside {
 			}
 		}
 	}
-	#content {
+	#main {
 		.make-row();
-		#speakers {
+		#content {
 			.make-sm-column(9);
 		}
 		.section-nav {
 			.make-sm-column(3);
 		}
 	}
+	#content {
+		.speaker-list {
+			.make-row();
+		}
+		h2 {
+			clear: both;
+		}
+		.speaker {
+			.make-sm-column(4);
+			.make-xs-column(6);
+			padding-bottom: 20px;
+			h3 {
+				font-size: 1.2em;
+				text-align: center;
+			}
+		
+			.clearfix();
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+	
+	.call-to-action {
+		.btn-cta {
+			width: 100%;
+			margin: 30px 0;
+		}
+	}
+	.video-list {
+		.make-row();
+		.video {
+			.make-sm-column(6);
+			margin-bottom: 30px;
+		}
+	}
+	
+	.challenge-list {
+		.make-row();
+		.challenge {
+			.make-sm-column(6);
+			margin-bottom: 30px;
+		}
+	}
 }
 
-#speakers {
-	.speaker-list {
-		.make-row();
-	}
-	h2 {
-		clear: both;
-	}
-	.speaker {
-		.make-sm-column(4);
-		.make-xs-column(6);
-		padding-bottom: 20px;
-		h3 {
-			font-size: 1.2em;
-			text-align: center;
-		}
-		
-		.clearfix();
-		img {
-			max-width: 100%;
-		}
-	}
-}
 
 
 //
@@ -1065,6 +1088,8 @@ article.entry > aside {
 		}
 	}
 }
+
+
 
 //
 // CUSTOM HELPERS

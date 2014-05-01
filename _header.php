@@ -86,7 +86,11 @@
 	              <a href="/events/" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 									<li><a href="/events/">All</a></li>
-				          <li><a href="/events/">Upcoming Events</a></li>
+				          <li><a href="/events/">Upcoming Events</a>
+										<ul>
+											<li><a href="/event-detail/">Example Event</a></li>
+										</ul>
+									</li>
 									<li><a href="/events/">Past Events</a></li>
 	              </ul>
 	            </li>
