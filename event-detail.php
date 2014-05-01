@@ -183,7 +183,14 @@ $bodyCss = "events page landing landing-event has-top-social-buttons page-second
 					<h2>Download the Kit by Section</h2>
 					<ul class="bullets twek-list">
 					    <li><a target="_blank" href="http://www.truewoman.com/download/ROH-TW-Event-Kit-event-starter-guide.pdf">Event Starter Guide (pages 7–42)</a><br>
-					    Find suggested event formats, schedules, themes, and message options.</li>
+					    Find suggested event formats, schedules, themes, and message options.
+							<ul>
+								<li>This is just a test sub bulletted list</li>
+								<li>This is just a test sub bulletted list</li>
+								<li>This is just a test sub bulletted list</li>
+								<li>This is just a test sub bulletted list</li>
+							</ul>
+						</li>
 					    <li><a target="_blank" href="http://www.truewoman.com/download/ROH-TW-Event-Kit-message-guides.pdf">Message Listener Guides (pages 43–157)</a><br>
 					    Worksheets are provided for each message to help listeners follow along and take notes.</li>
 					    <li><a target="_blank" href="http://www.truewoman.com/download/ROH-TW-Event-Kit-message-questions.pdf">Message Discussion Questions (pages 158–183)</a><br>The questions are great for processing and applying the messages in a small group setting.</li>

@@ -71,6 +71,40 @@ article {
 	}
 }
 
+.main {
+	ul {
+		margin: 1em 0;
+		padding-left: 18px;
+		& > li {
+			margin-bottom: 1em;
+			list-style: none;
+			&:before {    
+		    font-family: 'FontAwesome';
+				font-size: .5em;
+		    content: '\f111';
+		    margin:.6em 5px 0 -15px;
+				float: left;
+				margin-left: -18px;
+				color: #999;
+			}
+			& ul > li {
+				list-style: none;
+				&:before {    
+			    font-family: 'FontAwesome';
+					font-size: .5em;
+			    content: '\f10c';
+			    margin:.6em 5px 0 -15px;
+					float: left;
+					margin-left: -18px;
+					color: #999;
+				}
+			}
+		}
+	}
+}
+
+
+
 .margin-fix {
 	margin-left: 15px;
 	margin-right: 15px;
