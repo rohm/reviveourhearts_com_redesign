@@ -2,7 +2,7 @@
 
 $sectionName = "Event Details";
 $pageTitle = "The Wonder of His Name Book + Bookmark";
-$bodyCss = "events page page-full-width landing landing-store has-top-social-buttons page-secondary-nav";
+$bodyCss = "events page landing landing-event has-top-social-buttons page-secondary-nav";
 
 ?>
 

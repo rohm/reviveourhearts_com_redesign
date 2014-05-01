@@ -54,7 +54,20 @@
 	          </ul>
 
 	          <ul class="nav navbar-nav navbar-left">
-	            <li id="parent-about"><a href="/about-us/who-we-are/">About</a></li>
+	            <li id="parent-about" class="dropdown">
+	              <a href="/about-us/who-we-are/" class="dropdown-toggle disabled" data-toggle="dropdown">About <b class="caret"></b></a>
+	              <ul class="dropdown-menu">
+									<li><a href="/about-us/nancy-leigh-demoss/">Nancy Leigh DeMoss</a></li>
+	                <li><a href="/about-us/who-we-are/">Who We Are</a></li>
+									<li><a href="/about-us/speakers/">Revive Our Hearts Speakers</a></li>
+									<li><a href="/about-us/opportunities-to-serve/">Opportunities to Serve</a></li>
+									<li><a href="/about-us/statement-of-faith/">Statement of Faith</a></li>
+									<li><a href="/about-us/endorsements/">Endorsements</a></li>
+									<li><a href="/about-us/changed-lives/">Changed Lives</a></li>
+									<li><a href="/about-us/faqs/">Frequently Asked Questions</a></li>
+									<li><a href="/about-us/advisory-board/">Advisory Board</a></li>
+	              </ul>
+	            </li>
 
 	            <li id="parent-resources" class="dropdown">
 	              <a href="/resource-library/" class="dropdown-toggle disabled" data-toggle="dropdown">Resources <b class="caret"></b></a>
@@ -69,21 +82,21 @@
 	              </ul>
 	            </li>
 	            <li id="parent-resources" class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
+	              <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Programs <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 				          <li><a href="/programs/revive-our-hearts/immanuel/">Revive Our Hearts</a></li>
 									<li><a href="/programs/seeking-him/">Seeking Him</a></li>
 	              </ul>
 	            </li>
 	            <li id="parent-blogs" class="dropdown">
-	              <a href="/blogs/" class="dropdown-toggle" data-toggle="dropdown">Blogs <b class="caret"></b></a>
+	              <a href="/blogs/" class="dropdown-toggle disabled" data-toggle="dropdown">Blogs <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 				          <li><a href="/blogs/true-woman/">True Woman</a></li>
 									<li><a href="/blogs/lies-young-women-believe/">Lies Young Women Believe</a></li>
 	              </ul>
 	            </li>
 	            <li id="parent-events" class="dropdown">
-	              <a href="/events/" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+	              <a href="/events/" class="dropdown-toggle disabled" data-toggle="dropdown">Events <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 									<li><a href="/events/">All</a></li>
 				          <li><a href="/events/">Upcoming Events</a>
@@ -95,7 +108,7 @@
 	              </ul>
 	            </li>
 	            <li id="parent-store" class="dropdown">
-	              <a href="/store/" class="dropdown-toggle" data-toggle="dropdown">Store <b class="caret"></b></a>
+	              <a href="/store/" class="dropdown-toggle disabled" data-toggle="dropdown">Store <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 				          <li><a href="/store/">All</a></li>
 									<li><a href="#">By Category</a></li>

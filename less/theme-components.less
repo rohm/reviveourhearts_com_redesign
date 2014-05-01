@@ -49,6 +49,7 @@
 .btn {
   // Remove the gradient for the pressed/active state
   /* border: none; */
+	border-color: rgba(0,0,0, .03);
   border-radius: 3px;
 	white-space: normal;
   &:active,
@@ -77,7 +78,9 @@
 
 .thumbnail,
 .img-thumbnail {
-  // .box-shadow(0 1px 2px rgba(0,0,0,.075));
+	border: none;
+	background-color: #f9f9f9;
+	.box-shadow(@base-dropshadow);
 }
 
 //
@@ -159,15 +162,18 @@
 // Dropdowns
 // --------------------------------------------------
 
+.dropdown-menu {
+	border-radius: 2px;
+}
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  #gradient > .vertical(@start-color: @dropdown-link-hover-bg; @end-color: darken(@dropdown-link-hover-bg, 5%));
+  // #gradient > .vertical(@start-color: @dropdown-link-hover-bg; @end-color: darken(@dropdown-link-hover-bg, 5%));
   background-color: darken(@dropdown-link-hover-bg, 5%);
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  #gradient > .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));
+  // #gradient > .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));
   background-color: darken(@dropdown-link-active-bg, 5%);
 }
 
@@ -197,11 +203,13 @@
 
 // Inverted navbar
 .navbar-inverse {
-  #gradient > .vertical(@start-color: lighten(@navbar-inverse-bg, 10%); @end-color: @navbar-inverse-bg);
+  // #gradient > .vertical(@start-color: lighten(@navbar-inverse-bg, 10%); @end-color: @navbar-inverse-bg);
+	background-color: @navbar-inverse-bg;
   .reset-filter(); // Remove gradient in IE<10 to fix bug where dropdowns don't get triggered
 
   .navbar-nav > .active > a {
-    #gradient > .vertical(@start-color: @navbar-inverse-bg; @end-color: lighten(@navbar-inverse-bg, 2.5%));
+    // #gradient > .vertical(@start-color: @navbar-inverse-bg; @end-color: lighten(@navbar-inverse-bg, 2.5%));
+		background-color: @navbar-inverse-bg;
     .box-shadow(inset 0 3px 9px rgba(0,0,0,.25));
   }
 
@@ -336,7 +344,6 @@
 .panel-danger > .panel-heading    { .panel-heading-styles(@panel-danger-heading-bg); }
 
 
-
 //
 // Wells
 // --------------------------------------------------
@@ -354,7 +361,7 @@
 }
 
 //
-// Wells
+// Cards
 // --------------------------------------------------
 
 .cards {
@@ -364,6 +371,7 @@
 		.make-sm-column(6);
 		.make-md-column(4);
 		text-align: left;
+		
 	}
 }
 

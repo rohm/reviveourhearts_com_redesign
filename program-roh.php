@@ -139,8 +139,8 @@ $bodyCss = "program roh page page-default page-secondary-nav has-top-social-butt
 			<ul class="nav nav-stacked">
 
 				<li class="active">
-					<a href="#">Revive Our Hearts</a>
-					<ul>
+					<a href="/programs/revive-our-hearts/">Revive Our Hearts</a>
+					<ul class="nav nav-stacked">
 						<li><a href="#">Today&rsquo;s Program</a></li>
 						<li><a href="#">For Your Donation</a></li>
 						<li><a href="#">Past Programs</a></li>
@@ -148,8 +148,8 @@ $bodyCss = "program roh page page-default page-secondary-nav has-top-social-butt
 						<li><a href="#">Listen in Your Area</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Seeking Him</a>
-					<ul>
+				<li><a href="/programs/seeking-him/">Seeking Him</a>
+					<ul class="nav nav-stacked">
 						<li><a href="#">Today&rsquo;s Program</a></li>
 						<li><a href="#">For Your Donation</a></li>
 						<li><a href="#">Past Programs</a></li>
