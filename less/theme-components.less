@@ -446,3 +446,38 @@ input[type="radio"] {
 		}
 	}
 }
+
+//
+// Quotes
+// --------------------------------------------------
+
+.quotes {
+	.make-row();
+	min-height: 200px;
+	.quotes-inner {
+		.make-md-column-offset(2);
+		.make-md-column(8);
+	}
+	blockquote {
+		border: none;
+	}
+	.carousel-control {
+		.fa {
+			margin-top: 3.4em;
+			position: relative;
+			text-shadow: none;
+			.box-shadow(none);
+			color: lighten(@gray, 40%);
+		}
+		&.right,
+		&.left {
+			background: transparent;
+		}
+		&.left {
+			margin-left: -1.8em;
+		}
+		&.right {
+			margin-right: -1.8em;
+		}
+	}
+}
