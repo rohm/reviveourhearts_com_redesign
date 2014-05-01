@@ -99,8 +99,9 @@ $bodyCss = "events page landing landing-event has-top-social-buttons page-second
 	</div>
 	
 	<article class="entry">
+		<h2 class="border text-glow margin-fix">Speakers</h2>
 		<section class="main">
-			<h2 class="border text-glow">Speakers</h2>
+			
 			<div class="speaker-list">
 				<div class="speaker">
 				  <a href="/speakers#nancy"><img src="http://truewoman14.s3.amazonaws.com/library/img/speaker-nancy.jpg" alt="Nancy Leigh DeMoss"></a><br>
