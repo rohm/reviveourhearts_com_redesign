@@ -199,6 +199,7 @@ body.store #parent-store,
 body.blog #parent-blogs,
 body.about #parent-about,
 body.resources #parent-resources,
+body.programs #parent-programs,
 body.events #parent-events,
 body.store #parent-store,
 body.donate #parent-donate {
@@ -380,12 +381,25 @@ span.dropdown-toggle {
 .page-default {
 	article.entry {
 
-		.social-buttons {
+		.social-nav {
 			.make-sm-column(2);
 			.make-sm-column-push(10);
 			.make-md-column(1);
 			.make-md-column-push(0);
 			.make-lg-column(1);
+			.social-buttons {
+				width: 80px;
+				position: absolute;
+				&.affix-top {
+					position: absolute;
+				}
+				&.affix {
+					position: fixed;
+				}
+				&.affix-bottom {
+					position: relative;
+				}
+			}
 			button.btn {
 				width: 100%;
 				min-width: 60px;

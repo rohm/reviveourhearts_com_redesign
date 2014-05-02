@@ -3,7 +3,7 @@
 $sectionName = "Programs";
 $programName = "Seeking Him";
 $pageTitle = "Spread It Out";
-$bodyCss = "program sh page page-default page-secondary-nav has-top-social-buttons";
+$bodyCss = "programs sh page page-default page-secondary-nav has-top-social-buttons";
 
 ?>
 

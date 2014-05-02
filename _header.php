@@ -22,7 +22,7 @@
       $('.collapse').collapse();
     </script>
   </head>
-  <body class="<?php echo $bodyCss; ?>">
+  <body class="<?php echo $bodyCss; ?>" <?php echo $affix; ?> >
     <div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
 				<div class="navbar-wrap">
@@ -70,7 +70,7 @@
 	            </li>
 
 	            <li id="parent-resources" class="dropdown">
-	              <a href="/resource-library/" class="dropdown-toggle disabled" data-toggle="dropdown">Resources <b class="caret"></b></a>
+	              <a href="/resources/" class="dropdown-toggle disabled" data-toggle="dropdown">Resources <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 	                <li><a href="#">Browse All</a></li>
 	                <li><a href="#">By Category</a></li>
@@ -81,7 +81,7 @@
 	                <li><a href="#">One more separated link</a></li>
 	              </ul>
 	            </li>
-	            <li id="parent-resources" class="dropdown">
+	            <li id="parent-programs" class="dropdown">
 	              <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Programs <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 				          <li><a href="/programs/revive-our-hearts/immanuel/">Revive Our Hearts</a></li>

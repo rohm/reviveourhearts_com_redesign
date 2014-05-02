@@ -3,6 +3,7 @@
 $sectionName ="Blogs";
 $pageTitle = "True Woman";
 $bodyCss = "blog truewoman page page-default page-secondary-nav has-top-social-buttons";
+$affix = "data-spy='scroll' data-target='#affix-social-nav'";
 
 ?>
 
@@ -29,8 +30,9 @@ $bodyCss = "blog truewoman page page-default page-secondary-nav has-top-social-b
 				by <a href="#" class="entry-author">Dawn Wilson</a> &dot; <a href="#" class="entry-comments">14 Comments</a>
 			</p>
 		</header>
-		
-		<?php include "_social_buttons_1.php" ?>
+		<div class="social-nav" id="affix-social-nav">
+			<?php include "_social_buttons_1.php" ?>
+		</div>
 		
 		<section class="main" role="main">
 			<img src="http://placehold.it/1400x500" alt="" class="img-responsive" />

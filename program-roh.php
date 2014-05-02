@@ -1,9 +1,9 @@
 <?php
 
-$sectionName ="Programs";
+$sectionName = "Programs";
 $programName = "Revive Our Hearts";
 $pageTitle = "Immanuel";
-$bodyCss = "program roh page page-default page-secondary-nav has-top-social-buttons";
+$bodyCss = "programs roh page page-default page-secondary-nav has-top-social-buttons";
 
 ?>
 

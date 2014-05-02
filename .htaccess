@@ -9,6 +9,9 @@ RewriteRule ^about-us$    who-we-are.php
 RewriteRule ^about-us/who-we-are/$   about-who-we-are.php
 RewriteRule ^about-us/who-we-are$    about-who-we-are.php
 
+RewriteRule ^resources/$   resources.php
+RewriteRule ^resources$    resources.php
+
 RewriteRule ^programs/revive-our-hearts/immanuel/$   program-roh.php
 RewriteRule ^programs/revive-our-hearts/immanuel$    program-roh.php
 
