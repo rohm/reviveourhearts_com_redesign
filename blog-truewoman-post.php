@@ -30,9 +30,9 @@ $affix = "data-spy='scroll' data-target='#affix-social-nav'";
 				by <a href="#" class="entry-author">Dawn Wilson</a> &dot; <a href="#" class="entry-comments">14 Comments</a>
 			</p>
 		</header>
-		<div class="social-nav" id="affix-social-nav">
-			<?php include "_social_buttons_1.php" ?>
-		</div>
+
+		<?php include "_social_buttons_1.php" ?>
+
 		
 		<section class="main" role="main">
 			<img src="http://placehold.it/1400x500" alt="" class="img-responsive" />

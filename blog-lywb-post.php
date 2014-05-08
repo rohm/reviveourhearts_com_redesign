@@ -3,6 +3,7 @@
 $sectionName ="Blogs";
 $pageTitle = "Lies Young Women Believe";
 $bodyCss = "blog lywb page page-default page-secondary-nav has-top-social-buttons";
+$affix = "data-spy='scroll' data-target='#affix-social-nav'";
 
 ?>
 
