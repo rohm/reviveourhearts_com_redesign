@@ -97,21 +97,21 @@ $bodyCss = "resources resources-landing page page-default page-narrow-aside";
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Mother</a></h4>
-							<p>Raising children and training them in godliness can be a difficult task in society today. We desire these resources to be a source of equipping in your critical role as a mother.</p>
+							<!-- <p>Raising children and training them in godliness can be a difficult task in society today. We desire these resources to be a source of equipping in your critical role as a mother.</p> -->
 						</div>
 					</div>
 					<div class="media">
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Teenager</a></h4>
-							<p>Following Christ as a young woman in high school or college can be tough in a complex, media-driven environment. We hope to encourage you with resources to help navigate the world around you.</p>
+							<!-- <p>Following Christ as a young woman in high school or college can be tough in a complex, media-driven environment. We hope to encourage you with resources to help navigate the world around you.</p> -->
 						</div>
 					</div>
 					<div class="media">
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Single Woman</a></h4>
-							<p>Whether you have never been married, or find yourself single again, we trust these resources will encourage you to make the most of this season where the Lord has you.</p>
+							<!-- <p>Whether you have never been married, or find yourself single again, we trust these resources will encourage you to make the most of this season where the Lord has you.</p> -->
 						</div>
 					</div>
 					<div class="clearfix visible-sm visible-md visible-lg"></div>
@@ -119,21 +119,21 @@ $bodyCss = "resources resources-landing page page-default page-narrow-aside";
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Married Woman</a></h4>
-							<p>Regardless of how easy or difficult your marriage may seem, the Word of God offers practical wisdom for how to live faithfully in this relationship.</p>
+							<!-- <p>Regardless of how easy or difficult your marriage may seem, the Word of God offers practical wisdom for how to live faithfully in this relationship.</p> -->
 						</div>
 					</div>
 					<div class="media">
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Mentor</a></h4>
-							<p>The impact of godly mentors cannot be overstated, and the mandate to train younger women in Scripture is clear. We are happy to offer resources that can help you in that ministry.</p>
+							<!-- <p>The impact of godly mentors cannot be overstated, and the mandate to train younger women in Scripture is clear. We are happy to offer resources that can help you in that ministry.</p> -->
 						</div>
 					</div>
 					<div class="media">
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Women&rsquo;s Ministry Leader</a></h4>
-							<p>Working in women&rsquo;s ministry is a battle, and the demands and stakes are high. We want to encourage you to press on, for the reward of changed lives is worth the cost and effort it takes!</p>
+							<!-- <p>Working in women&rsquo;s ministry is a battle, and the demands and stakes are high. We want to encourage you to press on, for the reward of changed lives is worth the cost and effort it takes!</p> -->
 						</div>
 					</div>
 					<div class="clearfix visible-sm visible-md visible-lg"></div>
@@ -141,21 +141,21 @@ $bodyCss = "resources resources-landing page page-default page-narrow-aside";
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Empty Nester</a></h4>
-							<p>An empty house again can feel strange, but can also provide many opportunities. We want to help you during this season to make the most of these years and to find joy and fulfillment.</p>
+							<!-- <p>An empty house again can feel strange, but can also provide many opportunities. We want to help you during this season to make the most of these years and to find joy and fulfillment.</p> -->
 						</div>
 					</div>
 					<div class="media">
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Hurting Women</a></h4>
-							<p>When life gets difficult, we often struggle to maintain perspective and hope. We trust these resources will point you back to God&rsquo;s Word for stability, assurance, grace, and hope.</p>
+							<!-- <p>When life gets difficult, we often struggle to maintain perspective and hope. We trust these resources will point you back to God&rsquo;s Word for stability, assurance, grace, and hope.</p> -->
 						</div>
 					</div>
 					<div class="media">
 						<a href="#"><img src="http://placehold.it/360x100" alt="Featured Book Title" class="img-rounded img-responsive"></a>
 						<div class="media-body">
 							<h4><a href="#">Student of the Word</a></h4>
-							<p>Do you desire to dig deep into the Word of God? As you seek Him in the pages of His Word, we believe your study will yield abundant fruit.</p>
+							<!-- <p>Do you desire to dig deep into the Word of God? As you seek Him in the pages of His Word, we believe your study will yield abundant fruit.</p> -->
 						</div>
 					</div>
 					<div class="clearfix visible-sm visible-md visible-lg"></div>
