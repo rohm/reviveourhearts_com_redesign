@@ -24,8 +24,8 @@ $bodyCss = "resources resources-landing page page-default page-narrow-aside";
 					<div class="input-group search-form">
 						<input type="text" class="form-control" placeholder="Search 5,000 resources">
 						<span class="input-group-btn">
-						<button class="btn btn-default" type="button">
-							<span class="glyphicon glyphicon-search"></span>
+						<button class="btn btn-primary" type="button">
+							<span class="fa fa-search"></span>
 						</button>
 						</span>
 					</div><!-- /input-group -->
@@ -165,11 +165,33 @@ $bodyCss = "resources resources-landing page page-default page-narrow-aside";
 		</section>
 		
 		<aside>
+			<h3>Featured</h3>
+			<ul class="nav nav-stacked">
+				<li><a href="#">Essentials</a></li>
+				<li><a href="#">Popular</a></li>
+				<li><a href="#">Recommended</a></li>
+				<li><a href="#">Challenges</a></li>
+				<li><a href="#">Ministry Leaders</a></li>
+				
+				<li><a href="#">Spanish</a></li>
+			</ul>
+			<h3>Category</h3>
 			<ul class="nav nav-stacked">
 				<li><a href="#">Articles</a></li>
 				<li><a href="#">Programs</a></li>
 				<li><a href="#">Videos</a></li>
 				<li><a href="#">Wallpapers</a></li>
+				<li><a href="#">FAQs</a></li>
+			</ul>
+			<h3>Topic</h3>
+			<ul class="nav nav-stacked">
+				<li><a href="#">Bible &amp; Theology</a></li>
+				<li><a href="#">Christian Living</a></li>
+				<li><a href="#">Home &amp; Family</a></li>
+				<li><a href="#">Life Issues</a></li>
+				<li><a href="#">Relationships</a></li>
+				
+				<li><a href="#">All Topics. . .</a></li>
 			</ul>
 		</aside>
 		
