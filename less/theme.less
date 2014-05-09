@@ -44,6 +44,15 @@ a {
 	&:hover {
 		text-decoration: none;
 	}
+	.fa, 
+	.glyphicon {
+		color: lighten(@text-color, 40%);
+	}
+	&:hover {
+		.fa, .glyphicon {
+			color: @text-color;
+		}
+	}
 }
 
 hr {
