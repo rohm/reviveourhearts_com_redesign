@@ -72,9 +72,9 @@
 	            <li id="parent-resources" class="dropdown">
 	              <a href="/resources/" class="dropdown-toggle disabled" data-toggle="dropdown">Resources <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
-	                <li><a href="/resources/all/">Browse All</a></li>
-	                <li><a href="resources/by-category/">By Category</a></li>
-	                <li><a href="resources/by-topic/">By Topic</a></li>
+	                <li><a href="/resources/">Browse All</a></li>
+	                <li><a href="/resources/by-category/articles">By Category</a></li>
+	                <li><a href="/resources/by-topic/bible">By Topic</a></li>
 	                <li class="divider"></li>
 	                <li class="dropdown-header">Nav header</li>
 	                <li><a href="#">Separated link</a></li>

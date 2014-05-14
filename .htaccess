@@ -11,7 +11,10 @@ RewriteRule ^about-us/who-we-are$    about-who-we-are.php
 
 RewriteRule ^resources/$   resources.php
 RewriteRule ^resources$    resources.php
-RewriteRule ^resources/all/$    resources-browse-all.php
+RewriteRule ^resources/by-topic/bible$    	resources-by-topic-bible.php
+RewriteRule ^resources/by-topic/bible/$    	resources-by-topic-bible.php
+RewriteRule ^resources/by-category/articles$    	resources-by-category-articles.php
+RewriteRule ^resources/by-category/articles/$    	resources-by-category-articles.php
 
 RewriteRule ^programs/revive-our-hearts/immanuel/$   program-roh.php
 RewriteRule ^programs/revive-our-hearts/immanuel$    program-roh.php
